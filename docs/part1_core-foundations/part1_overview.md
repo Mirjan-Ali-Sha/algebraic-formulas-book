@@ -1,0 +1,7 @@
+# Part 1: Core Foundations
+
+Part 1 is the entry hall of the book: it introduces the language, habits, and visual intuitions that will support every later chapter. You begin with the question “What is algebra, really?” and progress through variables, patterns, and basic equations before meeting the first family of classic identities involving squares and rectangles. The pace is deliberate, with the aim of building genuine comfort rather than rushing toward advanced topics.
+
+The early chapters show how everyday patterns—rows of tables, steps in a staircase, repeated purchases—can be captured by simple formulas. Variables and expressions become natural tools for describing change, while equations are presented as balances between two different descriptions of the same quantity. Visual stories involving areas and balances accompany the algebraic rules, making identities feel like reflections of familiar pictures rather than arbitrary laws.
+
+The final chapters of Part 1 focus on the square of a sum, the square of a difference, and the difference of squares. These identities are more than isolated tricks: they are prototypes of patterns you will see in higher powers, in polynomial factorization, and in the binomial theorem. By the end of Part 1, you should be comfortable moving between words, mental images, and symbolic expressions, and ready to treat algebraic identities as tools you understand deeply rather than rules you merely accept.

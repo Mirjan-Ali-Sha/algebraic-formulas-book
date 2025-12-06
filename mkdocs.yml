@@ -1,0 +1,90 @@
+site_name: Unified Algebraic Formulas and Proofs
+site_description: A visual, step-by-step algebra book for grades 6–12 – from basic identities to binomial, exponentials, and modelling.
+site_url: https://<your-username>.github.io/<your-repo>/
+repo_url: https://github.com/<your-username>/<your-repo>
+repo_name: <your-username>/<your-repo>
+
+# All markdown files should be under ./docs
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+
+  - Part 1 – Core Foundations:
+      - Chapter 1: What is Algebra? Why Formulas?: part1_core-foundations/ch01_what-is-algebra.md
+      - Chapter 2: Variables, Patterns, and Expressions: part1_core-foundations/ch02_variables-patterns-expressions.md
+      - Chapter 3: Visualizing Equations and Basic Identities: part1_core-foundations/ch03_visualizing-equations-basic-identities.md
+      - Chapter 4: The Square of a Sum – Visual Proofs: part1_core-foundations/ch04_square-of-a-sum.md
+      - Chapter 5: The Square of a Difference, Difference of Squares: part1_core-foundations/ch05_square-of-a-difference.md
+
+  - Part 2 – Expanding Algebraic Thinking:
+      - Chapter 6: Product and Factorization Formulas: part2_expanding-thinking/ch06_product-and-factorization-formulas.md
+      - Chapter 7: Three-Variable and Cubic Identities: part2_expanding-thinking/ch07_three-variable-and-cubic-identities.md
+      - Chapter 8: Patterns in Expansion – Pascal and Binomial Coefficients: part2_expanding-thinking/ch08_patterns-in-expansion-pascal-binomial.md
+      - Chapter 9: Higher-Power Expressions: part2_expanding-thinking/ch09_higher-power-expressions.md
+      - Chapter 10: Factoring Special Expansions: part2_expanding-thinking/ch10_factoring-special-expansions.md
+      - Chapter 11: Quadratic Equations – Roots, Factorization, Quadratic Formula: part2_expanding-thinking/ch11_quadratic-equations.md
+
+  - Part 3 – Equations and Progressions:
+      - Chapter 12: Sequence Types – Arithmetic, Geometric, Harmonic: part3_equations-and-progressions/ch12_sequence-types.md
+      - Chapter 13: Infinite and Finite Series – Visual Patterns: part3_equations-and-progressions/ch13_infinite-and-finite-series.md
+      - Chapter 14: Properties of Exponents: part3_equations-and-progressions/ch14_properties-of-exponents.md
+      - Chapter 15: Surds and Radical Expressions: part3_equations-and-progressions/ch15_surds-and-radicals.md
+      - Chapter 16: (Reserved / your title): part3_equations-and-progressions/ch16_placeholder.md
+      - Chapter 17: (Reserved / your title): part3_equations-and-progressions/ch17_placeholder.md
+      - Chapter 18: (Reserved / your title): part3_equations-and-progressions/ch18_placeholder.md
+      - Chapter 19: (Reserved / your title): part3_equations-and-progressions/ch19_placeholder.md
+      - Chapter 20: (Reserved / your title): part3_equations-and-progressions/ch20_placeholder.md
+
+  - Part 4 – Advanced Structures and Functions:
+      - Chapter 21: Binomial Theorem – Introduction: part4_advanced-structures-and-functions/ch21_binomial-theorem-intro.md
+      - Chapter 22: Binomial Theorem – Visual and Combinatorial Proofs: part4_advanced-structures-and-functions/ch22_binomial-theorem-visual-proofs.md
+      - Chapter 23: Binomial Theorem – Symbolic Proofs and Identities: part4_advanced-structures-and-functions/ch23_binomial-theorem-symbolic-proofs.md
+      - Chapter 24: Polynomials and Factorization: part4_advanced-structures-and-functions/ch24_polynomials-and-factorization.md
+      - Chapter 25: Exponential Functions – Growth Patterns and Graphs: part4_advanced-structures-and-functions/ch25_exponential-functions.md
+      - Chapter 26: Logarithmic Functions – Inverse, Laws, Applications: part4_advanced-structures-and-functions/ch26_logarithmic-functions.md
+      - Chapter 27: Transformations and Compositions of Functions: part4_advanced-structures-and-functions/ch27_transformations-and-compositions.md
+      - Chapter 28: Advanced Identities and Inequalities: part4_advanced-structures-and-functions/ch28_advanced-identities-and-inequalities.md
+      - Chapter 29: Functional Equations – An Introduction: part4_advanced-structures-and-functions/ch29_functional-equations-intro.md
+      - Chapter 30: Mixed Advanced Practice: part4_advanced-structures-and-functions/ch30_mixed-advanced-practice.md
+
+  - Part 5 – Applications, Modelling, and Integration:
+      - Chapter 31: Linear and Quadratic Modelling – From Story to Formula: part5_applications-modelling-integration/ch31_linear-and-quadratic-modelling.md
+      - Chapter 32: Exponential and Logarithmic Modelling – Growth, Decay, and Scales: part5_applications-modelling-integration/ch32_exponential-and-log-modelling.md
+      - Chapter 33: Sequences and Series Modelling – Savings, Loans, Repeated Change: part5_applications-modelling-integration/ch33_sequences-and-series-modelling.md
+      - Chapter 34: Cross-Discipline Applications – Algebra in Science, Art, and Life: part5_applications-modelling-integration/ch34_cross-discipline-applications.md
+      - Chapter 35: Capstone Projects and Unified Formula Toolbox: part5_applications-modelling-integration/ch35_capstone-projects-and-formula-toolbox.md
+
+  - Answers & Reference:
+      - Part 1 Solutions: answers-and-reference/solutions_part1.md
+      - Part 2 Solutions: answers-and-reference/solutions_part2.md
+      - Part 3 Solutions: answers-and-reference/solutions_part3.md
+      - Part 4 Solutions: answers-and-reference/solutions_part4.md
+      - Part 5 Solutions: answers-and-reference/solutions_part5.md
+      - Glossary: answers-and-reference/glossary.md
+      - Formula Sheet: answers-and-reference/formula-sheet.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - def_list
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/<your-username>/<your-repo>
