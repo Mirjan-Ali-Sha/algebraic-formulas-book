@@ -1,0 +1,2804 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A visual, step-by-step algebra book for grades 6–12 – from basic identities to binomial, exponentials, and modelling.">
+      
+      
+      
+        <link rel="canonical" href="https://Mirjan-Ali-Sha.github.io/algebraic-formulas-book/part3_equations-and-progressions/ch19_finite-and-infinite-series/">
+      
+      
+        <link rel="prev" href="../ch18_sequences-harmonic-and-other/">
+      
+      
+        <link rel="next" href="../ch20_exponents-and-surds/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 19: Finite and Infinite Series - Unified Algebraic Formulas and Proofs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-19-finite-series-visual-patterns" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-header__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unified Algebraic Formulas and Proofs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 19: Finite and Infinite Series
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-nav__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Unified Algebraic Formulas and Proofs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_preface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_about-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_how-to-use-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_introduction-for-students/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Students
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_introduction-for-teachers-and-parents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Teachers and Parents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 – Core Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 – Core Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/part1_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch01_what-is-algebra-why-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1: What is Algebra? Why Formulas?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch02_variables-patterns-and-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2: Variables, Patterns, and Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch03_visualizing-equations-and-basic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Visualizing Equations and Basic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch05_square-of-a-difference-and-difference-of-squares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: The Square of a Difference, Difference of Squares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/part2_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch06_product-and-factorization-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6: Product and Factorization Formulas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch07_three-variable-and-cubic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7: Three-Variable and Cubic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch08_patterns-in-expansion-pascal-and-binomial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Patterns in Expansion – Pascal and Binomial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch09_higher-power-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9: Higher-Power Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch10_factoring-special-expansions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10: Factoring Special Expansions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch11_mixed-practice-and-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 11: Mixed Practice and Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 – Equations and Progressions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 – Equations and Progressions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch12_quadratic-equations-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 12: Quadratic Equations – Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch13_roots-and-factorization-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 13: Roots and Factorization Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch14_quadratic-formula-and-derivation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Quadratic Formula and Derivation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch15_more-quadratic-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 15: More Quadratic Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch16_sequences-arithmetic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 16: Sequences – Arithmetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch17_sequences-geometric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 17: Sequences – Geometric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch18_sequences-harmonic-and-other/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 18: Sequences – Harmonic and Other
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Finite and Infinite Series
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Finite and Infinite Series
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-arithmetic-series-revisited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Arithmetic series revisited
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-geometric-series-revisited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Geometric series revisited
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-sum-of-the-first-n-natural-numbers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Sum of the first (n) natural numbers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-counting-objects-in-a-triangular-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Counting objects in a triangular pattern
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-finite-geometric-sum-in-a-repeated-discount-situation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Finite geometric sum in a repeated-discount situation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch20_exponents-and-surds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 20: Exponents and Surds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/part4_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch21_binomial-theorem-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 21: Binomial Theorem – Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch22_binomial-theorem-visual-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 22: Binomial Theorem – Visual and Combinatorial Proofs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch23_binomial-theorem-symbolic-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch24_polynomials-and-factorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 24: Polynomials and Factorization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch25_exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 25: Exponential Functions – Growth Patterns and Graphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch26_logarithmic-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 26: Logarithmic Functions – Inverse, Laws, Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch27_transformations-and-compositions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Transformations and Compositions of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch28_advanced-identities-and-inequalities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Advanced Identities and Inequalities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch29_functional-equations-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 29: Functional Equations – An Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch30_mixed-advanced-practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 30: Mixed Advanced Practice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/part5_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch31_linear-and-quadratic-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 31: Linear and Quadratic Modelling – From Story to Formula
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch32_exponential-and-log-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 32: Exponential and Logarithmic Modelling – Growth, Decay, and Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch33_historical-and-artistic-perspectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 33: Historical and Artistic Perspectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch34_cross-discipline-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 34: Cross-Discipline Applications – Algebra in Science, Art, and Life
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch35_capstone-projects-and-formula-toolbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 35: Capstone Projects and Unified Formula Toolbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Answers & Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Answers & Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/formula-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formula Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-arithmetic-series-revisited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Arithmetic series revisited
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-geometric-series-revisited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Geometric series revisited
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-sum-of-the-first-n-natural-numbers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Sum of the first (n) natural numbers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-counting-objects-in-a-triangular-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Counting objects in a triangular pattern
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-finite-geometric-sum-in-a-repeated-discount-situation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Finite geometric sum in a repeated-discount situation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-19-finite-series-visual-patterns">Chapter 19: Finite Series – Visual Patterns<a class="headerlink" href="#chapter-19-finite-series-visual-patterns" title="Permanent link">&para;</a></h1>
+<h2 id="1-introduction-and-motivation">1. Introduction and motivation<a class="headerlink" href="#1-introduction-and-motivation" title="Permanent link">&para;</a></h2>
+<p>Sequences list numbers in order; <strong>series</strong> add them up. Whenever you total daily sales, count the number of objects in a pattern, or compute the total distance walked in several stages, you are working with a finite series. The power of algebra is that it can describe these totals compactly, even when there are many terms.</p>
+<p>This chapter focuses on <strong>finite series</strong> built from arithmetic and geometric sequences. You will see how the sum formulas you already know arise naturally from visual and pairing arguments, and you will apply them to counting problems and simple models. These ideas pave the way for infinite series in the next chapter, where similar patterns stretch endlessly.</p>
+<hr />
+<h2 id="2-visual-idea-described-in-words">2. Visual idea described in words<a class="headerlink" href="#2-visual-idea-described-in-words" title="Permanent link">&para;</a></h2>
+<p>Imagine a staircase made of blocks: the first step is 1 block high, the second is 2 blocks, the third is 3, and so on up to (n) steps. If you want to know how many blocks are used in total, you are asking for the sum of the arithmetic series (1 + 2 + 3 + \dots + n). A classic visual trick is to build a second, identical staircase, flip it, and fit the two together to form a rectangle. The rectangle has (n) steps in width and (n + 1) in height, so its area is (n(n + 1)). Since this is twice the one staircase, the original sum is (\frac{n(n + 1)}{2}).</p>
+<p>For geometric series, picture a square of area 1. Shade half of it, then half of the remaining half, and so on. After 1 step, half the square is shaded; after 2 steps, three-quarters is shaded; after 3 steps, seven-eighths. Each new shaded region is half the area of the one before, forming a geometric series. By grouping these regions carefully, you can see how the total shaded area after (n) steps approaches (but does not exceed) the full area.</p>
+<hr />
+<h2 id="3-arithmetic-series-revisited">3. Arithmetic series revisited<a class="headerlink" href="#3-arithmetic-series-revisited" title="Permanent link">&para;</a></h2>
+<p>An <strong>arithmetic series</strong> is the sum of the first (n) terms of an arithmetic sequence. If (a_1) is the first term, (a_n) the (n)th term, and (d) the common difference, the sum is
+[
+S_n = a_1 + a_2 + \cdots + a_n.
+]</p>
+<p>From Chapter 16, pairing terms from opposite ends gives
+[
+S_n = \frac{n(a_1 + a_n)}{2}.
+]
+If you prefer to use (a_1), (d), and (n) only, substitute (a_n = a_1 + (n - 1)d):
+[
+S_n = \frac{n}{2}\left[2a_1 + (n - 1)d\right].
+]</p>
+<p>These formulas are particularly useful in counting problems where the numbers being added form a simple linear pattern.</p>
+<hr />
+<h2 id="4-geometric-series-revisited">4. Geometric series revisited<a class="headerlink" href="#4-geometric-series-revisited" title="Permanent link">&para;</a></h2>
+<p>A <strong>geometric series</strong> is the sum of the first (n) terms of a geometric sequence. For first term (a_1) and common ratio (r),
+[
+S_n = a_1 + a_1r + a_1r^2 + \cdots + a_1r^{n-1}.
+]</p>
+<p>As seen in Chapter 17, multiplying by (r) and subtracting leads to
+[
+S_n = \frac{a_1(1 - r^n)}{1 - r},\quad r \neq 1.
+]
+If (r = 1), then every term equals (a_1), so (S_n = n a_1).</p>
+<p>Geometric series show up whenever something is repeatedly multiplied by the same factor: instalments with constant percentage changes, layered discounts, or repeated halving and doubling.</p>
+<hr />
+<h2 id="5-worked-examples">5. Worked examples<a class="headerlink" href="#5-worked-examples" title="Permanent link">&para;</a></h2>
+<h3 id="example-1-sum-of-the-first-n-natural-numbers">Example 1: Sum of the first (n) natural numbers<a class="headerlink" href="#example-1-sum-of-the-first-n-natural-numbers" title="Permanent link">&para;</a></h3>
+<p>Find a formula for
+[
+1 + 2 + 3 + \cdots + n.
+]</p>
+<p>This is an arithmetic series with (a_1 = 1), (a_n = n), and (n) terms. Using
+[
+S_n = \frac{n(a_1 + a_n)}{2},
+]
+gives
+[
+S_n = \frac{n(1 + n)}{2} = \frac{n(n + 1)}{2}.
+]</p>
+<hr />
+<h3 id="example-2-counting-objects-in-a-triangular-pattern">Example 2: Counting objects in a triangular pattern<a class="headerlink" href="#example-2-counting-objects-in-a-triangular-pattern" title="Permanent link">&para;</a></h3>
+<p>A pattern of dots is arranged in rows: the first row has 3 dots, the second 5, the third 7, and so on, with each row having 2 more dots than the previous one. There are 10 rows in total. How many dots are there?</p>
+<p>This is an arithmetic series with first term 3, common difference 2, and (n = 10). The 10th term is
+[
+a_{10} = 3 + (10 - 1) \cdot 2 = 3 + 18 = 21.
+]
+The total number of dots is
+[
+S_{10} = \frac{10(3 + 21)}{2} = 5 \cdot 24 = 120.
+]</p>
+<hr />
+<h3 id="example-3-finite-geometric-sum-in-a-repeated-discount-situation">Example 3: Finite geometric sum in a repeated-discount situation<a class="headerlink" href="#example-3-finite-geometric-sum-in-a-repeated-discount-situation" title="Permanent link">&para;</a></h3>
+<p>A shop offers a 20% discount on a jacket, then an additional 20% off the reduced price, and so on for 4 rounds of discount. If the original price is 100 dollars, what total amount of discount has effectively been applied after 4 rounds?</p>
+<p>Each round removes 20% (i.e. (\frac{1}{5})) of the current price, so 80% (factor 0.8) remains. After the first discount, the amount removed is 20; after the second, it is (20 \cdot 0.8 = 16); after the third, (16 \cdot 0.8 = 12.8); and so on. The discount amounts form a geometric sequence:
+[
+20,\ 16,\ 12.8,\ 10.24,\dots
+]
+with (a_1 = 20), (r = 0.8). The total discount over 4 rounds is
+[
+S_4 = \frac{20(1 - 0.8^4)}{1 - 0.8} = \frac{20(1 - 0.4096)}{0.2} = \frac{20 \cdot 0.5904}{0.2} = 20 \cdot 2.952 = 59.04.
+]
+So the effective total discount is 59.04 dollars; the final price is (100 - 59.04 = 40.96) dollars.</p>
+<hr />
+<h2 id="6-exercises">6. Exercises<a class="headerlink" href="#6-exercises" title="Permanent link">&para;</a></h2>
+<p><strong>Mild</strong></p>
+<ol>
+<li>Find the sum (2 + 4 + 6 + \cdots + 20).  </li>
+<li>Find the sum (5 + 8 + 11 + \cdots + 29).  </li>
+<li>Find the sum of the first 7 terms of (3, 9, 27, \dots).</li>
+</ol>
+<p><strong>Medium</strong></p>
+<ol>
+<li>A set of steps is built so that the first step is 10 cm high, the second 12 cm, the third 14 cm, and so on, increasing by 2 cm each time. There are 8 steps.  </li>
+<li>a) How high is the top step?  </li>
+<li>
+<p>b) What is the total vertical height from the ground to the top (sum of all step heights)?  </p>
+</li>
+<li>
+<p>Find the sum of the first 6 terms of the geometric sequence (4, 2, 1, \frac{1}{2}, \dots).</p>
+</li>
+</ol>
+<p><strong>Spicy</strong></p>
+<ol>
+<li>A ball bounces to 60% of its previous height on each bounce. It is dropped from 5 metres.  </li>
+<li>a) Write the heights after each bounce as a geometric sequence.  </li>
+<li>
+<p>b) Find the total vertical distance travelled by the ball up to and including the 3rd fall back to the ground (down and up counted separately).  </p>
+</li>
+<li>
+<p>Show that
+   [
+   1 + 2 + 4 + 8 + \cdots + 2^{n-1} = 2^n - 1.
+   ]
+   Hint: Recognise this as a geometric series.</p>
+</li>
+</ol>
+<p><strong>Extra Hot</strong></p>
+<ol>
+<li>A pattern uses sticks of lengths 1, 2, 3, \dots, (n) units. The total length is (L_n).  </li>
+<li>a) Express (L_n) as a series and write it using a formula in terms of (n).  </li>
+<li>
+<p>b) If you know the total length used is 210 units, find (n).  </p>
+</li>
+<li>
+<p>Consider the geometric series
+   [
+   S_n = 7 + 7r + 7r^2 + \cdots + 7r^{n-1}.
+   ]</p>
+</li>
+<li>a) Express (S_n) in terms of (r) and (n).  </li>
+<li>b) For which values of (r) (real numbers) is (S_n) increasing as (n) increases?</li>
+</ol>
+<hr />
+<h2 id="7-answers-short-form">7. Answers (short form)<a class="headerlink" href="#7-answers-short-form" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Even numbers: (a_1 = 2), (a_{10} = 20), (n = 10).<br />
+   [
+   S_{10} = \frac{10(2 + 20)}{2} = 5 \cdot 22 = 110.
+   ]</p>
+</li>
+<li>
+<p>(5, 8, 11, \dots, 29): (a_1 = 5), (d = 3), find (n) from (a_n = 29):<br />
+   [
+   5 + (n - 1)3 = 29 \Rightarrow 3(n - 1) = 24 \Rightarrow n = 9.
+   ]
+   Sum:
+   [
+   S_9 = \frac{9(5 + 29)}{2} = \frac{9 \cdot 34}{2} = 153.
+   ]</p>
+</li>
+<li>
+<p>Geometric: (a_1 = 3), (r = 3), (n = 7).<br />
+   [
+   S_7 = \frac{3(1 - 3^7)}{1 - 3} = \frac{3(1 - 2187)}{-2} = \frac{3(-2186)}{-2} = 3279.
+   ]</p>
+</li>
+<li></li>
+<li>a) Top step is (a_8 = 10 + 7 \cdot 2 = 24) cm.  </li>
+<li>
+<p>b) Sum:
+     [
+     S_8 = \frac{8(10 + 24)}{2} = 4 \cdot 34 = 136\ \text{cm}.
+     ]</p>
+</li>
+<li>
+<p>(4, 2, 1, \frac{1}{2}, \dots): (a_1 = 4), (r = \frac{1}{2}), (n = 6).<br />
+   [
+   S_6 = \frac{4(1 - (\frac{1}{2})^6)}{1 - \frac{1}{2}} = 8\left(1 - \frac{1}{64}\right) = 8 \cdot \frac{63}{64} = \frac{63}{8}.
+   ]</p>
+</li>
+<li></li>
+<li>a) Heights after each bounce: (5,\ 3,\ 1.8,\ 1.08,\dots) with (a_1 = 5), (r = 0.6).  </li>
+<li>
+<p>b) Distance: initial drop 5 m, then up 3 m, down 3 m, up 1.8 m, down 1.8 m, up 1.08 m, down 1.08 m. Sum:
+     [
+     5 + 2(3 + 1.8 + 1.08) = 5 + 2 \cdot 5.88 = 5 + 11.76 = 16.76\ \text{m}.
+     ]</p>
+</li>
+<li>
+<p>This is a geometric series with (a_1 = 1), (r = 2), (n = n).<br />
+   [
+   S_n = \frac{1(1 - 2^n)}{1 - 2} = 2^n - 1.
+   ]</p>
+</li>
+<li></li>
+<li>a) (L_n = 1 + 2 + \cdots + n = \frac{n(n + 1)}{2}).  </li>
+<li>
+<p>b) Set (\frac{n(n + 1)}{2} = 210 \Rightarrow n(n + 1) = 420). Solve (n^2 + n - 420 = 0). The positive solution is (n = 20) (since (20 \cdot 21 = 420)).</p>
+</li>
+<li></li>
+<li>a) (S_n = 7 \cdot \frac{1 - r^n}{1 - r}) for (r \neq 1); if (r = 1), then (S_n = 7n).  </li>
+<li>b) For fixed (r), the sequence of partial sums increases with (n) when each new term added is non-negative. For (r \geq 0), each term (7r^{n-1}) is non-negative. For (0 \leq r &lt; 1), (S_n) increases but approaches a finite limit. For (r &gt; 1), (S_n) increases without bound.</li>
+</ol>
+<hr />
+<h2 id="8-key-ideas-and-whats-next">8. Key ideas and what’s next<a class="headerlink" href="#8-key-ideas-and-whats-next" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Finite series add the terms of a sequence; arithmetic and geometric series have elegant closed-form sums derived from simple visual and algebraic tricks.</li>
+<li>Many counting and distance problems reduce to arithmetic or geometric sums once a pattern is recognised.</li>
+<li>The behaviour of geometric series foreshadows what happens with infinite series, where similar patterns extend indefinitely.</li>
+</ul>
+<p>In the next chapter, you will use these finite-series ideas as a springboard into <strong>infinite series</strong>, exploring when an endless sum can be said to have a finite total and how visual patterns make this plausible.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.tracking", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2967 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A visual, step-by-step algebra book for grades 6–12 – from basic identities to binomial, exponentials, and modelling.">
+      
+      
+      
+        <link rel="canonical" href="https://Mirjan-Ali-Sha.github.io/algebraic-formulas-book/part4_advanced-structures-and-functions/ch27_transformations-and-compositions/">
+      
+      
+        <link rel="prev" href="../ch26_logarithmic-functions/">
+      
+      
+        <link rel="next" href="../ch28_advanced-identities-and-inequalities/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 27: Transformations and Compositions of Functions - Unified Algebraic Formulas and Proofs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-27-transformations-and-compositions-of-functions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-header__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unified Algebraic Formulas and Proofs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 27: Transformations and Compositions of Functions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-nav__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Unified Algebraic Formulas and Proofs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_preface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_about-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_how-to-use-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_introduction-for-students/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Students
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_introduction-for-teachers-and-parents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Teachers and Parents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 – Core Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 – Core Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/part1_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch01_what-is-algebra-why-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1: What is Algebra? Why Formulas?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch02_variables-patterns-and-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2: Variables, Patterns, and Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch03_visualizing-equations-and-basic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Visualizing Equations and Basic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch05_square-of-a-difference-and-difference-of-squares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: The Square of a Difference, Difference of Squares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/part2_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch06_product-and-factorization-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6: Product and Factorization Formulas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch07_three-variable-and-cubic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7: Three-Variable and Cubic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch08_patterns-in-expansion-pascal-and-binomial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Patterns in Expansion – Pascal and Binomial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch09_higher-power-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9: Higher-Power Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch10_factoring-special-expansions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10: Factoring Special Expansions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch11_mixed-practice-and-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 11: Mixed Practice and Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 – Equations and Progressions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 – Equations and Progressions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/part3_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch12_quadratic-equations-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 12: Quadratic Equations – Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch13_roots-and-factorization-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 13: Roots and Factorization Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch14_quadratic-formula-and-derivation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Quadratic Formula and Derivation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch15_more-quadratic-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 15: More Quadratic Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch16_sequences-arithmetic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 16: Sequences – Arithmetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch17_sequences-geometric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 17: Sequences – Geometric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch18_sequences-harmonic-and-other/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 18: Sequences – Harmonic and Other
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch19_finite-and-infinite-series/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Finite and Infinite Series
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch20_exponents-and-surds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 20: Exponents and Surds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part4_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch21_binomial-theorem-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 21: Binomial Theorem – Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch22_binomial-theorem-visual-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 22: Binomial Theorem – Visual and Combinatorial Proofs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch23_binomial-theorem-symbolic-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch24_polynomials-and-factorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 24: Polynomials and Factorization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch25_exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 25: Exponential Functions – Growth Patterns and Graphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch26_logarithmic-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 26: Logarithmic Functions – Inverse, Laws, Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Transformations and Compositions of Functions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Transformations and Compositions of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-basic-graph-transformations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Basic graph transformations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-worked-examples-polynomials-exponentials-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Worked examples: polynomials, exponentials, logs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Worked examples: polynomials, exponentials, logs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-transforming-a-quadratic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Transforming a quadratic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-transforming-an-exponential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Transforming an exponential
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-transforming-a-logarithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Transforming a logarithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-function-composition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Function composition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Function composition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-definition-and-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Definition and interpretation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-composition-examples-with-algebra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Composition examples with algebra
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch28_advanced-identities-and-inequalities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Advanced Identities and Inequalities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch29_functional-equations-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 29: Functional Equations – An Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch30_mixed-advanced-practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 30: Mixed Advanced Practice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/part5_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch31_linear-and-quadratic-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 31: Linear and Quadratic Modelling – From Story to Formula
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch32_exponential-and-log-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 32: Exponential and Logarithmic Modelling – Growth, Decay, and Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch33_historical-and-artistic-perspectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 33: Historical and Artistic Perspectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch34_cross-discipline-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 34: Cross-Discipline Applications – Algebra in Science, Art, and Life
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch35_capstone-projects-and-formula-toolbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 35: Capstone Projects and Unified Formula Toolbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Answers & Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Answers & Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/formula-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formula Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-basic-graph-transformations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Basic graph transformations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-worked-examples-polynomials-exponentials-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Worked examples: polynomials, exponentials, logs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Worked examples: polynomials, exponentials, logs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-transforming-a-quadratic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Transforming a quadratic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-transforming-an-exponential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Transforming an exponential
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-transforming-a-logarithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Transforming a logarithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-function-composition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Function composition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Function composition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-definition-and-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Definition and interpretation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-composition-examples-with-algebra" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Composition examples with algebra
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-27-transformations-and-compositions-of-functions">Chapter 27: Transformations and Compositions of Functions<a class="headerlink" href="#chapter-27-transformations-and-compositions-of-functions" title="Permanent link">&para;</a></h1>
+<h2 id="1-introduction-and-motivation">1. Introduction and motivation<a class="headerlink" href="#1-introduction-and-motivation" title="Permanent link">&para;</a></h2>
+<p>Graphs are pictures of functions. By learning how basic graphs shift, stretch, and reflect, you can sketch complex functions quickly and understand how algebraic changes affect visual shape. Transformations unify the behaviour of polynomials, exponentials, and logarithms: the same small set of rules describes how all of them move around the coordinate plane. [file:1]</p>
+<p>This chapter introduces <strong>graph transformations</strong> (translations, reflections, stretches) and <strong>function composition</strong> (f(g(x))). You will see how to build new functions from old ones and how to read transformations directly from formulas, without plotting dozens of points.</p>
+<hr />
+<h2 id="2-visual-idea-described-in-words">2. Visual idea described in words<a class="headerlink" href="#2-visual-idea-described-in-words" title="Permanent link">&para;</a></h2>
+<p>Start with a familiar graph like (y = x^2), a U-shaped parabola opening upward with vertex at the origin. If you add 3 to the function, getting (y = x^2 + 3), the whole graph moves up by 3 units: every point is higher, but the shape is unchanged. If you replace (x) by (x - 2), giving (y = (x - 2)^2), the graph shifts right by 2 units: the vertex moves from ((0, 0)) to ((2, 0)). [file:1]</p>
+<p>Similarly, reflecting a graph across the (x)-axis (changing (y) to (-y)) flips the picture upside down, and reflecting across the (y)-axis (replacing (x) by (-x)) mirrors it left–right. Combining these simple moves allows you to place the basic shapes of (x^2), (2^x), or (\log x) almost anywhere on the plane.</p>
+<hr />
+<h2 id="3-basic-graph-transformations">3. Basic graph transformations<a class="headerlink" href="#3-basic-graph-transformations" title="Permanent link">&para;</a></h2>
+<p>Let (y = f(x)) be a known graph. The following changes produce predictable transformations:</p>
+<ul>
+<li><strong>Vertical shift</strong>: (y = f(x) + k)  </li>
+<li>Moves the graph up by (k) units if (k &gt; 0), or down if (k &lt; 0).  </li>
+<li>
+<p>Shape unchanged; (y)-values increase or decrease by (k).</p>
+</li>
+<li>
+<p><strong>Horizontal shift</strong>: (y = f(x - h))  </p>
+</li>
+<li>Moves the graph right by (h) units if (h &gt; 0), or left if (h &lt; 0).  </li>
+<li>
+<p>Vertex or key points shift horizontally.</p>
+</li>
+<li>
+<p><strong>Vertical stretch/compression</strong>: (y = a \cdot f(x))  </p>
+</li>
+<li>If (|a| &gt; 1), graph stretches away from the (x)-axis (taller).  </li>
+<li>If (0 &lt; |a| &lt; 1), graph compresses towards the (x)-axis (flatter).  </li>
+<li>
+<p>If (a &lt; 0), also reflects in the (x)-axis.</p>
+</li>
+<li>
+<p><strong>Reflection in the (x)-axis</strong>: (y = -f(x))  </p>
+</li>
+<li>
+<p>Every point ((x, y)) moves to ((x, -y)).  </p>
+</li>
+<li>
+<p><strong>Reflection in the (y)-axis</strong>: (y = f(-x))  </p>
+</li>
+<li>Every point ((x, y)) moves to ((-x, y)).  </li>
+</ul>
+<p>These rules apply equally to all function types: parabolas, exponentials, logarithms, and others.</p>
+<hr />
+<h2 id="4-worked-examples-polynomials-exponentials-logs">4. Worked examples: polynomials, exponentials, logs<a class="headerlink" href="#4-worked-examples-polynomials-exponentials-logs" title="Permanent link">&para;</a></h2>
+<h3 id="example-1-transforming-a-quadratic">Example 1: Transforming a quadratic<a class="headerlink" href="#example-1-transforming-a-quadratic" title="Permanent link">&para;</a></h3>
+<p>Start with (f(x) = x^2).</p>
+<ul>
+<li>(g(x) = (x - 3)^2 + 2):  </li>
+<li>Replacing (x) by (x - 3) shifts the parabola to the right by 3 units.  </li>
+<li>
+<p>Adding 2 shifts the graph up by 2 units.<br />
+  The new vertex is at ((3, 2)), and the parabola opens upward like (x^2).</p>
+</li>
+<li>
+<p>(h(x) = -2x^2):  </p>
+</li>
+<li>The factor 2 stretches the graph vertically (steeper).  </li>
+<li>The minus sign reflects it in the (x)-axis.<br />
+  The graph opens downward and is narrower than (x^2).</li>
+</ul>
+<hr />
+<h3 id="example-2-transforming-an-exponential">Example 2: Transforming an exponential<a class="headerlink" href="#example-2-transforming-an-exponential" title="Permanent link">&para;</a></h3>
+<p>Start with (f(x) = 2^x).</p>
+<ul>
+<li>(g(x) = 2^x + 3):  </li>
+<li>Vertical shift up by 3 units.  </li>
+<li>
+<p>The horizontal asymptote moves from (y = 0) to (y = 3).  </p>
+</li>
+<li>
+<p>(h(x) = 2^{x - 1}):  </p>
+</li>
+<li>Horizontal shift right by 1 unit.  </li>
+<li>
+<p>The point that was at ((0, 1)) moves to ((1, 1)).</p>
+</li>
+<li>
+<p>(k(x) = 3 \cdot 2^{-x}):  </p>
+</li>
+<li>(2^{-x} = 2^{(-x)}) reflects (2^x) in the (y)-axis (decreasing curve).  </li>
+<li>Factor 3 stretches vertically; new (y)-intercept is 3 instead of 1.</li>
+</ul>
+<hr />
+<h3 id="example-3-transforming-a-logarithm">Example 3: Transforming a logarithm<a class="headerlink" href="#example-3-transforming-a-logarithm" title="Permanent link">&para;</a></h3>
+<p>Start with (f(x) = \log_2 x).</p>
+<ul>
+<li>(g(x) = \log_2 (x - 1)):  </li>
+<li>Horizontal shift right by 1.  </li>
+<li>Domain becomes (x &gt; 1).  </li>
+<li>
+<p>Vertical asymptote moves from (x = 0) to (x = 1).</p>
+</li>
+<li>
+<p>(h(x) = \log_2 x + 2):  </p>
+</li>
+<li>Vertical shift up by 2.  </li>
+<li>
+<p>The point ((1, 0)) moves to ((1, 2)).  </p>
+</li>
+<li>
+<p>(k(x) = -\log_2 x):  </p>
+</li>
+<li>Reflection in the (x)-axis; the graph flips upside down.</li>
+</ul>
+<p>Understanding these transformations lets you sketch new graphs by mentally “dragging” the basic (\log_2 x) curve instead of plotting many points.</p>
+<hr />
+<h2 id="5-function-composition">5. Function composition<a class="headerlink" href="#5-function-composition" title="Permanent link">&para;</a></h2>
+<h3 id="51-definition-and-interpretation">5.1 Definition and interpretation<a class="headerlink" href="#51-definition-and-interpretation" title="Permanent link">&para;</a></h3>
+<p>Given two functions (f) and (g), their <strong>composition</strong> (f \circ g) is defined by
+[
+(f \circ g)(x) = f(g(x)).
+]
+This means “first apply (g) to (x), then apply (f) to the result.”</p>
+<p>Function composition describes multi-step processes:</p>
+<ul>
+<li>
+<p>Example: “Take a number, double it, then add 5” is the composition of (g(x) = 2x) followed by (f(u) = u + 5), giving ((f \circ g)(x) = 2x + 5).  </p>
+</li>
+<li>
+<p>Example: “Measure time (t), convert to population via an exponential, then take the logarithm for scale” is composing an exponential with a log.</p>
+</li>
+</ul>
+<p>Composition is not usually commutative: (f(g(x))) and (g(f(x))) often differ.</p>
+<hr />
+<h3 id="52-composition-examples-with-algebra">5.2 Composition examples with algebra<a class="headerlink" href="#52-composition-examples-with-algebra" title="Permanent link">&para;</a></h3>
+<p><strong>Example 4: Linear and quadratic composition</strong></p>
+<p>Let (f(x) = x^2), (g(x) = x + 1).</p>
+<ul>
+<li>((f \circ g)(x) = f(g(x)) = (x + 1)^2).  </li>
+<li>((g \circ f)(x) = g(f(x)) = x^2 + 1).</li>
+</ul>
+<p>These are different functions: one shifts first then squares; the other squares first then shifts.</p>
+<hr />
+<p><strong>Example 5: Exponential with linear inside</strong></p>
+<p>Let (f(x) = 2^x), (g(x) = 3x - 1).</p>
+<ul>
+<li>((f \circ g)(x) = f(g(x)) = 2^{3x - 1}).  </li>
+</ul>
+<p>Algebraically, this composition corresponds to:</p>
+<ul>
+<li>a horizontal scaling by factor (\tfrac{1}{3}) (because of the 3 in the exponent),  </li>
+<li>a horizontal shift right by (\tfrac{1}{3}) (because of the (-1) term).</li>
+</ul>
+<p>Graphically, you could obtain (y = 2^{3x - 1}) by starting from (2^x) and applying those transformations.</p>
+<hr />
+<p><strong>Example 6: Logarithm after exponential</strong></p>
+<p>Let (f(x) = \log_3 x), (g(x) = 3^x).</p>
+<ul>
+<li>((f \circ g)(x) = f(g(x)) = \log_3(3^x) = x) (for all real (x)).  </li>
+</ul>
+<p>Here, (f) and (g) are inverses; their composition brings you back to the input. In contrast:</p>
+<ul>
+<li>((g \circ f)(x) = g(f(x)) = 3^{\log_3 x} = x), valid for (x &gt; 0), again showing the inverse relationship but with domain restricted to positive inputs.</li>
+</ul>
+<hr />
+<h2 id="6-exercises">6. Exercises<a class="headerlink" href="#6-exercises" title="Permanent link">&para;</a></h2>
+<p><strong>Mild</strong></p>
+<ol>
+<li>Describe the transformation that takes the graph of (y = x^2) to each of the following:  </li>
+<li>a) (y = (x - 4)^2),  </li>
+<li>b) (y = x^2 - 5),  </li>
+<li>
+<p>c) (y = -x^2).  </p>
+</li>
+<li>
+<p>Starting from (y = 2^x), describe how to obtain the graph of  </p>
+</li>
+<li>a) (y = 2^x + 4),  </li>
+<li>b) (y = 2^{x - 2}).</li>
+</ol>
+<hr />
+<p><strong>Medium</strong></p>
+<ol>
+<li>Sketch or describe the key features of the graph of (y = 3\cdot 2^{x} - 1):  </li>
+<li>a) What is the (y)-intercept?  </li>
+<li>b) What is the horizontal asymptote?  </li>
+<li>
+<p>c) Is the function increasing or decreasing?  </p>
+</li>
+<li>
+<p>Let (f(x) = x^2) and (g(x) = x - 3). Find formulas for:  </p>
+</li>
+<li>a) ((f \circ g)(x)),  </li>
+<li>b) ((g \circ f)(x)).</li>
+</ol>
+<hr />
+<p><strong>Spicy</strong></p>
+<ol>
+<li>The graph of (y = \log_{10} x) is shifted and stretched to form (y = 2\log_{10}(x - 1) + 3).  </li>
+<li>a) Describe the sequence of transformations applied.  </li>
+<li>b) What is the new vertical asymptote?  </li>
+<li>
+<p>c) What is the point corresponding to the old point ((10, 1)) on the new graph?</p>
+</li>
+<li>
+<p>Let (f(x) = \sqrt{x}) (defined for (x \geq 0)) and (g(x) = x + 4).  </p>
+</li>
+<li>a) Find ((f \circ g)(x)) and state its domain.  </li>
+<li>b) Find ((g \circ f)(x)) and state its domain.  </li>
+<li>c) Explain why the domains differ.</li>
+</ol>
+<hr />
+<p><strong>Extra Hot</strong></p>
+<ol>
+<li>A function is defined by (h(x) = a\cdot f(bx - c) + d), where (a, b, c, d) are constants and (f) is a known base function.  </li>
+<li>a) In words, describe the effect of each parameter (a, b, c, d) on the graph of (f).  </li>
+<li>
+<p>b) Apply this description to (f(x) = x^2) and (h(x) = -2(x - 1)^2 + 3).</p>
+</li>
+<li>
+<p>Suppose (f(x) = 2^x) and a transformation produces
+   [
+   k(x) = 8 \cdot 2^{-(x - 1)} + 5.
+   ]</p>
+</li>
+<li>a) Describe the graph of (k(x)) as a sequence of transformations starting from (2^x).  </li>
+<li>b) Identify the horizontal asymptote and the value of (k(1)).  </li>
+<li>c) Sketch or verbally describe how the shape compares to the original (2^x).</li>
+</ol>
+<hr />
+<h2 id="7-answers-short-form">7. Answers (short form)<a class="headerlink" href="#7-answers-short-form" title="Permanent link">&para;</a></h2>
+<ol>
+<li></li>
+<li>a) Shift right by 4 units.  </li>
+<li>b) Shift down by 5 units.  </li>
+<li>
+<p>c) Reflect in the (x)-axis (opens downward instead of upward).</p>
+</li>
+<li></li>
+<li>a) Shift (2^x) up by 4 units.  </li>
+<li>
+<p>b) Shift (2^x) right by 2 units.</p>
+</li>
+<li>
+<p>(y = 3\cdot 2^{x} - 1):  </p>
+</li>
+<li>a) (y)-intercept at (x = 0): (y = 3\cdot 2^0 - 1 = 2).  </li>
+<li>b) Horizontal asymptote: (y = -1).  </li>
+<li>
+<p>c) Increasing function (base (2 &gt; 1)).</p>
+</li>
+<li></li>
+<li>a) ((f \circ g)(x) = f(x - 3) = (x - 3)^2).  </li>
+<li>
+<p>b) ((g \circ f)(x) = g(x^2) = x^2 - 3).</p>
+</li>
+<li>
+<p>(y = 2\log_{10}(x - 1) + 3):  </p>
+</li>
+<li>a) Shift right by 1, vertical stretch by factor 2, then shift up by 3.  </li>
+<li>b) New vertical asymptote: (x = 1).  </li>
+<li>
+<p>c) Original point ((10, 1)) becomes: first shift right → ((11, 1)); stretch → ((11, 2)); shift up → ((11, 5)).</p>
+</li>
+<li></li>
+<li>a) ((f \circ g)(x) = f(x + 4) = \sqrt{x + 4}). Domain: (x + 4 \geq 0 \Rightarrow x \geq -4).  </li>
+<li>b) ((g \circ f)(x) = g(\sqrt{x}) = \sqrt{x} + 4). Domain: (x \geq 0).  </li>
+<li>
+<p>c) Domains differ because the inside function must produce inputs within the outer function’s domain each time.</p>
+</li>
+<li></li>
+<li>a) Starting from (y = f(x)):  <ul>
+<li>(b) scales horizontally (if (|b| &gt; 1), compress; if (0 &lt; |b| &lt; 1), stretch; if (b &lt; 0), also reflect in (y)-axis).  </li>
+<li>(c) shifts horizontally by (c/b).  </li>
+<li>(a) scales vertically; negative (a) reflects in (x)-axis.  </li>
+<li>(d) shifts vertically.  </li>
+</ul>
+</li>
+<li>
+<p>b) For (h(x) = -2(x - 1)^2 + 3):  </p>
+<ul>
+<li>Start with (y = x^2).  </li>
+<li>Shift right 1 (because of (x - 1)).  </li>
+<li>Stretch vertically by factor 2.  </li>
+<li>Reflect in the (x)-axis (minus sign).  </li>
+<li>Shift up by 3.</li>
+</ul>
+</li>
+<li></li>
+<li>a) Starting from (y = 2^x):  <ul>
+<li>Replace (x) by (-(x - 1)): reflect in (y)-axis and shift right 1.  </li>
+<li>Multiply by 8: vertical stretch.  </li>
+<li>Add 5: shift up 5.  </li>
+</ul>
+</li>
+<li>b) Horizontal asymptote: (y = 5).  <ul>
+<li>(k(1) = 8 \cdot 2^{0} + 5 = 13).  </li>
+</ul>
+</li>
+<li>c) Compared to (2^x), (k(x)) is flipped horizontally, raised, and stretched, but still has the general exponential shape.</li>
+</ol>
+<hr />
+<h2 id="8-key-ideas-and-whats-next">8. Key ideas and what’s next<a class="headerlink" href="#8-key-ideas-and-whats-next" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Transformations (shifts, stretches, reflections) apply uniformly to all types of functions, allowing quick mental graphing and flexible modelling. [file:1]</li>
+<li>Function composition describes multi-step processes and reveals how different function types interact, especially exponentials and logarithms as inverses.</li>
+<li>In the next chapter, you will use these transformation and composition ideas alongside advanced identities to study more sophisticated algebraic relationships and inequalities.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.tracking", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2898 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A visual, step-by-step algebra book for grades 6–12 – from basic identities to binomial, exponentials, and modelling.">
+      
+      
+      
+        <link rel="canonical" href="https://Mirjan-Ali-Sha.github.io/algebraic-formulas-book/part3_equations-and-progressions/ch14_quadratic-formula-and-derivation/">
+      
+      
+        <link rel="prev" href="../ch13_roots-and-factorization-methods/">
+      
+      
+        <link rel="next" href="../ch15_more-quadratic-applications/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 14: Quadratic Formula and Derivation - Unified Algebraic Formulas and Proofs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-14-the-quadratic-formula-and-the-discriminant" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-header__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unified Algebraic Formulas and Proofs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 14: Quadratic Formula and Derivation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-nav__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Unified Algebraic Formulas and Proofs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_preface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_about-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_how-to-use-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_introduction-for-students/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Students
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_introduction-for-teachers-and-parents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Teachers and Parents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 – Core Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 – Core Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/part1_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch01_what-is-algebra-why-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1: What is Algebra? Why Formulas?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch02_variables-patterns-and-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2: Variables, Patterns, and Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch03_visualizing-equations-and-basic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Visualizing Equations and Basic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch05_square-of-a-difference-and-difference-of-squares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: The Square of a Difference, Difference of Squares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/part2_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch06_product-and-factorization-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6: Product and Factorization Formulas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch07_three-variable-and-cubic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7: Three-Variable and Cubic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch08_patterns-in-expansion-pascal-and-binomial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Patterns in Expansion – Pascal and Binomial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch09_higher-power-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9: Higher-Power Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch10_factoring-special-expansions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10: Factoring Special Expansions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch11_mixed-practice-and-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 11: Mixed Practice and Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 – Equations and Progressions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 – Equations and Progressions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch12_quadratic-equations-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 12: Quadratic Equations – Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch13_roots-and-factorization-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 13: Roots and Factorization Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Quadratic Formula and Derivation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Quadratic Formula and Derivation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-deriving-the-quadratic-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Deriving the quadratic formula
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-discriminant-and-types-of-roots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. The discriminant and types of roots
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-a-quadratic-that-does-not-factor-nicely" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: A quadratic that does not factor nicely
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-a-quadratic-with-two-real-roots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: A quadratic with two real roots
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-a-quadratic-with-a-repeated-root" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: A quadratic with a repeated root
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch15_more-quadratic-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 15: More Quadratic Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch16_sequences-arithmetic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 16: Sequences – Arithmetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch17_sequences-geometric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 17: Sequences – Geometric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch18_sequences-harmonic-and-other/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 18: Sequences – Harmonic and Other
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch19_finite-and-infinite-series/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Finite and Infinite Series
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch20_exponents-and-surds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 20: Exponents and Surds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/part4_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch21_binomial-theorem-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 21: Binomial Theorem – Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch22_binomial-theorem-visual-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 22: Binomial Theorem – Visual and Combinatorial Proofs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch23_binomial-theorem-symbolic-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch24_polynomials-and-factorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 24: Polynomials and Factorization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch25_exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 25: Exponential Functions – Growth Patterns and Graphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch26_logarithmic-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 26: Logarithmic Functions – Inverse, Laws, Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch27_transformations-and-compositions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Transformations and Compositions of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch28_advanced-identities-and-inequalities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Advanced Identities and Inequalities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch29_functional-equations-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 29: Functional Equations – An Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part4_advanced-structures-and-functions/ch30_mixed-advanced-practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 30: Mixed Advanced Practice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/part5_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch31_linear-and-quadratic-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 31: Linear and Quadratic Modelling – From Story to Formula
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch32_exponential-and-log-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 32: Exponential and Logarithmic Modelling – Growth, Decay, and Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch33_historical-and-artistic-perspectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 33: Historical and Artistic Perspectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch34_cross-discipline-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 34: Cross-Discipline Applications – Algebra in Science, Art, and Life
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch35_capstone-projects-and-formula-toolbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 35: Capstone Projects and Unified Formula Toolbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Answers & Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Answers & Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/formula-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formula Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-deriving-the-quadratic-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Deriving the quadratic formula
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-discriminant-and-types-of-roots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. The discriminant and types of roots
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-a-quadratic-that-does-not-factor-nicely" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: A quadratic that does not factor nicely
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-a-quadratic-with-two-real-roots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: A quadratic with two real roots
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-a-quadratic-with-a-repeated-root" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: A quadratic with a repeated root
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-14-the-quadratic-formula-and-the-discriminant">Chapter 14: The Quadratic Formula and the Discriminant<a class="headerlink" href="#chapter-14-the-quadratic-formula-and-the-discriminant" title="Permanent link">&para;</a></h1>
+<h2 id="1-introduction-and-motivation">1. Introduction and motivation<a class="headerlink" href="#1-introduction-and-motivation" title="Permanent link">&para;</a></h2>
+<p>Factoring is an elegant way to solve many quadratic equations, but it does not always work cleanly. Some quadratics have roots that are not integers or simple fractions, and others do not factor over the real numbers at all. To handle <em>every</em> quadratic equation of the form
+[
+ax^2 + bx + c = 0,\quad a \neq 0,
+]
+a more general method is needed.</p>
+<p>The <strong>quadratic formula</strong> provides exactly that method. It expresses the roots directly in terms of the coefficients (a), (b), and (c), and introduces a new quantity, the <strong>discriminant</strong>, that predicts how many real solutions the equation has. In this chapter, you will derive the quadratic formula using a visual-completion-of-the-square idea, learn how to apply it in practice, and use the discriminant to classify quadratics without fully solving them.</p>
+<hr />
+<h2 id="2-visual-idea-described-in-words">2. Visual idea described in words<a class="headerlink" href="#2-visual-idea-described-in-words" title="Permanent link">&para;</a></h2>
+<p>Recall the identity
+[
+(x + p)^2 = x^2 + 2px + p^2.
+]
+Geometrically, this came from viewing ((x + p)^2) as the area of a square built from a square of side (x), a square of side (p), and two rectangles of area (xp). Solving a quadratic equation by <strong>completing the square</strong> means reversing this construction: you take a “nearly square” expression like (x^2 + 6x), interpret it as part of a larger square, and then restore the missing piece to form a complete square.</p>
+<p>For a general quadratic (ax^2 + bx + c), you can first factor out (a) from the (x^2) and (x) terms, leaving an expression inside the bracket that looks like (x^2 + (\text{something})x). Completing the square inside the bracket then corresponds to adjusting the diagram so that it forms a perfect square plus (or minus) a constant. Solving the equation is equivalent to finding the side length of this adjusted square when its area is specified.</p>
+<hr />
+<h2 id="3-deriving-the-quadratic-formula">3. Deriving the quadratic formula<a class="headerlink" href="#3-deriving-the-quadratic-formula" title="Permanent link">&para;</a></h2>
+<p>Start from the general quadratic equation
+[
+ax^2 + bx + c = 0,\quad a \neq 0.
+]
+Divide every term by (a) to make the coefficient of (x^2) equal to 1:
+[
+x^2 + \frac{b}{a}x + \frac{c}{a} = 0.
+]
+Move the constant term to the right-hand side:
+[
+x^2 + \frac{b}{a}x = -\frac{c}{a}.
+]</p>
+<p>Now complete the square on the left. Half the coefficient of (x) is (\frac{b}{2a}). Add the square of this to both sides:
+[
+x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 = -\frac{c}{a} + \left(\frac{b}{2a}\right)^2.
+]
+The left-hand side is a perfect square:
+[
+\left(x + \frac{b}{2a}\right)^2 = -\frac{c}{a} + \frac{b^2}{4a^2}.
+]
+Write the right-hand side over a common denominator (4a^2):
+[
+\left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2}.
+]</p>
+<p>Take the square root of both sides, remembering the (\pm) sign:
+[
+x + \frac{b}{2a} = \pm \frac{\sqrt{b^2 - 4ac}}{2a}.
+]
+Finally, subtract (\frac{b}{2a}) from both sides:
+[
+x = -\frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a}.
+]
+Combine the fractions:
+[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
+]</p>
+<p>This is the <strong>quadratic formula</strong>. The quantity under the square root,
+[
+\Delta = b^2 - 4ac,
+]
+is called the <strong>discriminant</strong>. It “discriminates” between different types of roots, as you will see next.</p>
+<hr />
+<h2 id="4-the-discriminant-and-types-of-roots">4. The discriminant and types of roots<a class="headerlink" href="#4-the-discriminant-and-types-of-roots" title="Permanent link">&para;</a></h2>
+<p>The discriminant (\Delta = b^2 - 4ac) controls the nature of the solutions:</p>
+<ul>
+<li>
+<p>If (\Delta &gt; 0):<br />
+  The square root (\sqrt{\Delta}) is a positive real number, so the quadratic has <strong>two distinct real roots</strong>. On the graph of (y = ax^2 + bx + c), the parabola crosses the horizontal axis at two different points.</p>
+</li>
+<li>
+<p>If (\Delta = 0):<br />
+  The square root is zero, so the quadratic has <strong>one repeated real root</strong>:
+  [
+  x = \frac{-b}{2a}.
+  ]
+  The parabola just touches the horizontal axis at its vertex (a “tangent” touch) and does not cross.</p>
+</li>
+<li>
+<p>If (\Delta &lt; 0):<br />
+  The square root (\sqrt{\Delta}) is not a real number (it is purely imaginary), so the quadratic has <strong>no real roots</strong>. The parabola lies entirely above or below the horizontal axis, depending on the sign of (a).</p>
+</li>
+</ul>
+<p>This classification allows you to predict the number and type of real solutions of a quadratic before doing any detailed algebra.</p>
+<hr />
+<h2 id="5-worked-examples">5. Worked examples<a class="headerlink" href="#5-worked-examples" title="Permanent link">&para;</a></h2>
+<h3 id="example-1-a-quadratic-that-does-not-factor-nicely">Example 1: A quadratic that does not factor nicely<a class="headerlink" href="#example-1-a-quadratic-that-does-not-factor-nicely" title="Permanent link">&para;</a></h3>
+<p>Solve
+[
+x^2 - 4x + 5 = 0.
+]</p>
+<p>Here (a = 1), (b = -4), (c = 5). The discriminant is
+[
+\Delta = (-4)^2 - 4 \cdot 1 \cdot 5 = 16 - 20 = -4.
+]
+Since (\Delta &lt; 0), there are no real roots. If complex numbers are allowed, the quadratic formula gives
+[
+x = \frac{-(-4) \pm \sqrt{-4}}{2 \cdot 1} = \frac{4 \pm 2i}{2} = 2 \pm i,
+]
+but in a real-only setting you would simply say: “No real solutions.”</p>
+<hr />
+<h3 id="example-2-a-quadratic-with-two-real-roots">Example 2: A quadratic with two real roots<a class="headerlink" href="#example-2-a-quadratic-with-two-real-roots" title="Permanent link">&para;</a></h3>
+<p>Solve
+[
+2x^2 - 3x - 2 = 0.
+]</p>
+<p>Here (a = 2), (b = -3), (c = -2). The discriminant is
+[
+\Delta = (-3)^2 - 4 \cdot 2 \cdot (-2) = 9 + 16 = 25.
+]
+Since (\Delta &gt; 0), there are two distinct real roots. Using the quadratic formula,
+[
+x = \frac{-(-3) \pm \sqrt{25}}{2 \cdot 2} = \frac{3 \pm 5}{4}.
+]
+Thus
+[
+x = \frac{3 + 5}{4} = 2,\quad x = \frac{3 - 5}{4} = -\frac{1}{2}.
+]
+These agree with the factorization approach from the previous chapter, confirming the correctness of both methods.</p>
+<hr />
+<h3 id="example-3-a-quadratic-with-a-repeated-root">Example 3: A quadratic with a repeated root<a class="headerlink" href="#example-3-a-quadratic-with-a-repeated-root" title="Permanent link">&para;</a></h3>
+<p>Solve
+[
+x^2 - 6x + 9 = 0.
+]</p>
+<p>Here (a = 1), (b = -6), (c = 9). The discriminant is
+[
+\Delta = (-6)^2 - 4 \cdot 1 \cdot 9 = 36 - 36 = 0.
+]
+With (\Delta = 0), there is exactly one real root. The quadratic is also a perfect square:
+[
+x^2 - 6x + 9 = (x - 3)^2.
+]
+From the quadratic formula,
+[
+x = \frac{-(-6) \pm \sqrt{0}}{2 \cdot 1} = \frac{6}{2} = 3.
+]
+The graph of (y = x^2 - 6x + 9) touches the horizontal axis at ((3, 0)) and then turns back, consistent with a repeated root.</p>
+<hr />
+<h2 id="6-exercises">6. Exercises<a class="headerlink" href="#6-exercises" title="Permanent link">&para;</a></h2>
+<p><strong>Mild</strong></p>
+<ol>
+<li>For each quadratic, compute the discriminant and state how many real roots it has (do not solve):</li>
+<li>a) (x^2 + 4x + 3 = 0),  </li>
+<li>b) (x^2 + 2x + 1 = 0),  </li>
+<li>
+<p>c) (x^2 + x + 1 = 0).</p>
+</li>
+<li>
+<p>Use the quadratic formula to solve (x^2 + 4x + 3 = 0).</p>
+</li>
+<li>
+<p>Use the quadratic formula to solve (3x^2 - 12x = 0).</p>
+</li>
+</ol>
+<p><strong>Medium</strong></p>
+<ol>
+<li>Solve (2x^2 + x - 3 = 0) using the quadratic formula.  </li>
+<li>Solve (x^2 - 5x + 8 = 0) and classify the roots as real or non-real.  </li>
+<li>For (y = 2x^2 - 4x + 1), compute the discriminant and deduce how many times the graph crosses the horizontal axis.</li>
+</ol>
+<p><strong>Spicy</strong></p>
+<ol>
+<li>A ball is thrown upwards from ground level with an initial speed such that its height in metres after (t) seconds is modelled by
+   [
+   h(t) = -5t^2 + 20t.
+   ]</li>
+<li>a) Use the quadratic formula to find the times (t) when the ball is at ground level ((h = 0)).  </li>
+<li>
+<p>b) Which of these times is physically meaningful?  </p>
+</li>
+<li>
+<p>Show that the quadratic equation
+   [
+   ax^2 + bx + c = 0
+   ]
+   has exactly one real root if and only if (b^2 = 4ac).</p>
+</li>
+</ol>
+<p><strong>Extra Hot</strong></p>
+<ol>
+<li>Consider the quadratic (x^2 - (m + n)x + mn = 0), where (m) and (n) are real numbers.</li>
+<li>a) Compute its discriminant in terms of (m) and (n).  </li>
+<li>
+<p>b) Use your result to explain, without factoring, why this quadratic always has real roots.</p>
+</li>
+<li>
+<p>Let (ax^2 + bx + c = 0) have real roots (r_1) and (r_2). Show that
+    [
+    (r_1 - r_2)^2 = \frac{b^2 - 4ac}{a^2},
+    ]
+    and explain briefly how this relates to the discriminant.</p>
+</li>
+</ol>
+<hr />
+<h2 id="7-answers-short-form">7. Answers (short form)<a class="headerlink" href="#7-answers-short-form" title="Permanent link">&para;</a></h2>
+<ol>
+<li></li>
+<li>a) (a = 1), (b = 4), (c = 3). (\Delta = 4^2 - 4 \cdot 1 \cdot 3 = 16 - 12 = 4 &gt; 0): two real roots.  </li>
+<li>b) (\Delta = 2^2 - 4 \cdot 1 \cdot 1 = 4 - 4 = 0): one repeated real root.  </li>
+<li>
+<p>c) (\Delta = 1^2 - 4 \cdot 1 \cdot 1 = 1 - 4 = -3 &lt; 0): no real roots.</p>
+</li>
+<li>
+<p>For (x^2 + 4x + 3 = 0),
+   [
+   x = \frac{-4 \pm \sqrt{4^2 - 4 \cdot 1 \cdot 3}}{2 \cdot 1} = \frac{-4 \pm \sqrt{4}}{2} = \frac{-4 \pm 2}{2}.
+   ]
+   So (x = -1) or (x = -3).</p>
+</li>
+<li>
+<p>For (3x^2 - 12x = 0), (a = 3), (b = -12), (c = 0),
+   [
+   x = \frac{-(-12) \pm \sqrt{(-12)^2 - 4 \cdot 3 \cdot 0}}{2 \cdot 3} = \frac{12 \pm 12}{6},
+   ]
+   giving (x = 0) or (x = 4).</p>
+</li>
+<li>
+<p>For (2x^2 + x - 3 = 0),
+   [
+   x = \frac{-1 \pm \sqrt{1^2 - 4 \cdot 2 \cdot (-3)}}{2 \cdot 2} = \frac{-1 \pm \sqrt{25}}{4}.
+   ]
+   So (x = 1) or (x = -\frac{3}{2}).</p>
+</li>
+<li>
+<p>For (x^2 - 5x + 8 = 0),
+   [
+   \Delta = (-5)^2 - 4 \cdot 1 \cdot 8 = 25 - 32 = -7 &lt; 0,
+   ]
+   so there are no real roots. The complex roots are
+   [
+   x = \frac{5 \pm \sqrt{-7}}{2} = \frac{5 \pm i\sqrt{7}}{2}.
+   ]</p>
+</li>
+<li>
+<p>For (y = 2x^2 - 4x + 1),
+   [
+   \Delta = (-4)^2 - 4 \cdot 2 \cdot 1 = 16 - 8 = 8 &gt; 0.
+   ]
+   The graph crosses the horizontal axis at two distinct points.</p>
+</li>
+<li>
+<p>For (h(t) = -5t^2 + 20t), solve (-5t^2 + 20t = 0), or equivalently (5t^2 - 20t = 0). Using the quadratic formula or factoring:
+   [
+   5t(t - 4) = 0 \Rightarrow t = 0 \text{ or } t = 4.
+   ]
+   The times are (t = 0) seconds (launch) and (t = 4) seconds (landing). Both are mathematically valid; physically, (t = 0) is the starting moment and (t = 4) is when the ball returns to the ground.</p>
+</li>
+<li>
+<p>If (\Delta = b^2 - 4ac = 0), then the quadratic formula gives
+   [
+   x = \frac{-b \pm 0}{2a} = -\frac{b}{2a},
+   ]
+   a single real root. Conversely, if there is exactly one real root, the (\pm) part must vanish, so (b^2 - 4ac = 0). Hence the equation has exactly one real root if and only if (b^2 = 4ac).</p>
+</li>
+<li>
+<p>For (x^2 - (m + n)x + mn = 0),
+   [
+   \Delta = (-(m + n))^2 - 4 \cdot 1 \cdot mn = (m + n)^2 - 4mn = m^2 - 2mn + n^2 = (m - n)^2 \geq 0.
+   ]
+   Since the discriminant is a square, it is never negative, so the quadratic always has real roots.</p>
+</li>
+<li>
+<p>If the roots are (r_1) and (r_2), then
+    [
+    ax^2 + bx + c = a(x - r_1)(x - r_2).
+    ]
+    Expanding gives
+    [
+    ax^2 - a(r_1 + r_2)x + ar_1r_2.
+    ]
+    Comparing with (ax^2 + bx + c), we have (-a(r_1 + r_2) = b) and (ar_1r_2 = c). Then
+    [
+    (r_1 - r_2)^2 = (r_1 + r_2)^2 - 4r_1r_2 = \left(\frac{-b}{a}\right)^2 - 4 \cdot \frac{c}{a} = \frac{b^2 - 4ac}{a^2}.
+    ]
+    This shows that the square of the distance between the roots is directly proportional to the discriminant: when (\Delta) is larger (and positive), the roots are farther apart.</p>
+</li>
+</ol>
+<hr />
+<h2 id="8-key-ideas-and-whats-next">8. Key ideas and what’s next<a class="headerlink" href="#8-key-ideas-and-whats-next" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The quadratic formula
+  [
+  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+  ]
+  solves any quadratic equation (ax^2 + bx + c = 0), whether or not it factors nicely.</li>
+<li>The discriminant (\Delta = b^2 - 4ac) determines the number and type of real roots and connects algebraic coefficients with the geometry of the parabola.</li>
+<li>Completing the square provides both a visual and algebraic path to the quadratic formula and will reappear later in other contexts.</li>
+</ul>
+<p>In the next chapters of Part 3, you will shift focus from equations to <strong>sequences and progressions</strong>, using the algebraic tools you have developed to describe and analyse patterns that unfold over many steps.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.tracking", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
