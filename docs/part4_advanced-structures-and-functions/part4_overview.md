@@ -1,7 +1,0 @@
-# Part 4: Advanced Structures and Functions
-
-Part 4 gathers together the strands of algebra you have developed so far—identities, equations, sequences, and series—and weaves them into a richer picture of algebraic structures and functions. You will meet polynomials of higher degree, explore their factorisations and roots, and see how they connect to graphs and to the behaviour of functions over the real numbers and beyond. [file:1]
-
-A central theme of this part is the interplay between **symbolic structure** and **graphical behaviour**. Complex polynomial factorisations reveal where graphs cross or touch the horizontal axis. Exponential and logarithmic functions show how repeated multiplication and its inverse can be modelled, graphed, and applied to questions of growth and decay. Advanced algebraic identities extend patterns like the binomial theorem to deeper settings, giving you tools to recognise structure in expressions that might at first seem unrelated. [file:1]
-
-Along the way, you will also glimpse how these ideas support further study: how polynomials underpin calculus, how exponentials and logarithms model real-world data, and how algebraic identities appear in unexpected places from number theory to combinatorics. By the end of Part 4, you should feel comfortable navigating between formulas, graphs, and verbal descriptions of functions, and ready to apply these tools to challenging problems and to new areas of mathematics. [file:1]
