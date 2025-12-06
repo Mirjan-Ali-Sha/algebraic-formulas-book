@@ -1,0 +1,3130 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A visual, step-by-step algebra book for grades 6–12 – from basic identities to binomial, exponentials, and modelling.">
+      
+      
+      
+        <link rel="canonical" href="https://Mirjan-Ali-Sha.github.io/algebraic-formulas-book/part4_advanced-structures-and-functions/ch23_binomial-theorem-symbolic-proofs/">
+      
+      
+        <link rel="prev" href="../ch22_binomial-theorem-visual-proofs/">
+      
+      
+        <link rel="next" href="../ch24_polynomials-and-factorization/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 23: Binomial Theorem – Symbolic Proofs and Identities - Unified Algebraic Formulas and Proofs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-23-binomial-theorem-symbolic-proofs-and-identities" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-header__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unified Algebraic Formulas and Proofs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-nav__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Unified Algebraic Formulas and Proofs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_preface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_about-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_how-to-use-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_introduction-for-students/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Students
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_introduction-for-teachers-and-parents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Teachers and Parents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 – Core Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 – Core Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/part1_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch01_what-is-algebra-why-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1: What is Algebra? Why Formulas?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch02_variables-patterns-and-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2: Variables, Patterns, and Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch03_visualizing-equations-and-basic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Visualizing Equations and Basic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch05_square-of-a-difference-and-difference-of-squares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: The Square of a Difference, Difference of Squares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/part2_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch06_product-and-factorization-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6: Product and Factorization Formulas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch07_three-variable-and-cubic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7: Three-Variable and Cubic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch08_patterns-in-expansion-pascal-and-binomial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Patterns in Expansion – Pascal and Binomial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch09_higher-power-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9: Higher-Power Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch10_factoring-special-expansions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10: Factoring Special Expansions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch11_mixed-practice-and-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 11: Mixed Practice and Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 – Equations and Progressions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 – Equations and Progressions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/part3_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch12_quadratic-equations-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 12: Quadratic Equations – Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch13_roots-and-factorization-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 13: Roots and Factorization Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch14_quadratic-formula-and-derivation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Quadratic Formula and Derivation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch15_more-quadratic-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 15: More Quadratic Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch16_sequences-arithmetic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 16: Sequences – Arithmetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch17_sequences-geometric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 17: Sequences – Geometric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch18_sequences-harmonic-and-other/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 18: Sequences – Harmonic and Other
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch19_finite-and-infinite-series/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Finite and Infinite Series
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch20_exponents-and-surds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 20: Exponents and Surds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part4_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch21_binomial-theorem-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 21: Binomial Theorem – Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch22_binomial-theorem-visual-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 22: Binomial Theorem – Visual and Combinatorial Proofs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-statement-of-the-binomial-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Statement of the binomial theorem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-algebraic-proof-using-pascals-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Algebraic proof using Pascal’s identity
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Algebraic proof using Pascal’s identity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-pascals-identity-for-binomial-coefficients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Pascal’s identity for binomial coefficients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-deriving-a-bn1-from-a-bn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Deriving ((a + b)^{n+1}) from ((a + b)^n)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-proof-by-mathematical-induction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Proof by mathematical induction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Proof by mathematical induction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-base-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Base case
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-inductive-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Inductive step
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-applications-special-values-and-binomial-sums" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Applications: special values and binomial sums
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Applications: special values and binomial sums">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-evaluating-powers-quickly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Evaluating powers quickly
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-sums-of-binomial-coefficients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Sums of binomial coefficients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-weighted-binomial-sums" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Weighted binomial sums
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-proving-a-binomial-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Proving a binomial identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-coefficient-in-a-more-complex-binomial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Coefficient in a more complex binomial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch24_polynomials-and-factorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 24: Polynomials and Factorization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch25_exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 25: Exponential Functions – Growth Patterns and Graphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch26_logarithmic-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 26: Logarithmic Functions – Inverse, Laws, Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch27_transformations-and-compositions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Transformations and Compositions of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch28_advanced-identities-and-inequalities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Advanced Identities and Inequalities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch29_functional-equations-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 29: Functional Equations – An Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch30_mixed-advanced-practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 30: Mixed Advanced Practice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/part5_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch31_linear-and-quadratic-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 31: Linear and Quadratic Modelling – From Story to Formula
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch32_exponential-and-log-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 32: Exponential and Logarithmic Modelling – Growth, Decay, and Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch33_historical-and-artistic-perspectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 33: Historical and Artistic Perspectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch34_cross-discipline-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 34: Cross-Discipline Applications – Algebra in Science, Art, and Life
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch35_capstone-projects-and-formula-toolbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 35: Capstone Projects and Unified Formula Toolbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Answers & Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Answers & Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/formula-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formula Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-statement-of-the-binomial-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Statement of the binomial theorem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-algebraic-proof-using-pascals-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Algebraic proof using Pascal’s identity
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Algebraic proof using Pascal’s identity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-pascals-identity-for-binomial-coefficients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Pascal’s identity for binomial coefficients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-deriving-a-bn1-from-a-bn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Deriving ((a + b)^{n+1}) from ((a + b)^n)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-proof-by-mathematical-induction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Proof by mathematical induction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Proof by mathematical induction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-base-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Base case
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-inductive-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Inductive step
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-applications-special-values-and-binomial-sums" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Applications: special values and binomial sums
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Applications: special values and binomial sums">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-evaluating-powers-quickly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Evaluating powers quickly
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-sums-of-binomial-coefficients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Sums of binomial coefficients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-weighted-binomial-sums" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Weighted binomial sums
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-proving-a-binomial-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Proving a binomial identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-coefficient-in-a-more-complex-binomial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Coefficient in a more complex binomial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-key-ideas-and-whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Key ideas and what’s next
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-23-binomial-theorem-symbolic-proofs-and-identities">Chapter 23: Binomial Theorem – Symbolic Proofs and Identities<a class="headerlink" href="#chapter-23-binomial-theorem-symbolic-proofs-and-identities" title="Permanent link">&para;</a></h1>
+<h2 id="1-introduction-and-motivation">1. Introduction and motivation<a class="headerlink" href="#1-introduction-and-motivation" title="Permanent link">&para;</a></h2>
+<p>Chapters 21 and 22 built up the binomial theorem through pattern spotting, geometry, and combinatorial counting. This chapter completes the story by giving <strong>formal algebraic proofs</strong> and showing how the theorem generates useful identities and sums. Symbolic proofs make the theorem reliable for all integer exponents (n \geq 0), not just for the small cases that can be drawn or counted by hand. [file:1]</p>
+<p>The focus is on three strands:
+- An algebraic proof using <strong>Pascal’s identity</strong>, matching the structure of Pascal’s triangle.<br />
+- A proof by <strong>mathematical induction</strong>, extending validity from (n) to (n + 1).<br />
+- Applications: using the theorem to evaluate special sums, approximate expressions, and derive binomial identities.</p>
+<hr />
+<h2 id="2-statement-of-the-binomial-theorem">2. Statement of the binomial theorem<a class="headerlink" href="#2-statement-of-the-binomial-theorem" title="Permanent link">&para;</a></h2>
+<p>For non-negative integer (n),
+[
+(a + b)^n = \sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k,
+]
+where the binomial coefficient
+[
+\binom{n}{k} = \frac{n!}{k!(n-k)!}, \quad 0 \leq k \leq n,
+]
+counts the number of ways to choose (k) objects from (n). This coefficient sequence (\binom{n}{0}, \binom{n}{1}, \dots, \binom{n}{n}) is the (n)th row of Pascal’s triangle. [file:1]</p>
+<p>Symbolically, this means every term of ((a + b)^n) looks like
+[
+\binom{n}{k}a^{n-k}b^k
+]
+for some integer (k) between 0 and (n), and no other types of term appear.</p>
+<hr />
+<h2 id="3-algebraic-proof-using-pascals-identity">3. Algebraic proof using Pascal’s identity<a class="headerlink" href="#3-algebraic-proof-using-pascals-identity" title="Permanent link">&para;</a></h2>
+<h3 id="31-pascals-identity-for-binomial-coefficients">3.1 Pascal’s identity for binomial coefficients<a class="headerlink" href="#31-pascals-identity-for-binomial-coefficients" title="Permanent link">&para;</a></h3>
+<p>Pascal’s identity states:
+[
+\binom{n+1}{k} = \binom{n}{k-1} + \binom{n}{k}
+]
+for integers (n \geq 0) and (1 \leq k \leq n). It matches the “add the two above” rule in Pascal’s triangle. [file:1]</p>
+<p>This identity can be justified combinatorially (as in Chapter 22): to choose (k) objects from (n + 1), either you include a particular distinguished object (then choose (k - 1) from the remaining (n)), or you exclude it (then choose all (k) from the remaining (n)).</p>
+<h3 id="32-deriving-a-bn1-from-a-bn">3.2 Deriving ((a + b)^{n+1}) from ((a + b)^n)<a class="headerlink" href="#32-deriving-a-bn1-from-a-bn" title="Permanent link">&para;</a></h3>
+<p>Assume the binomial theorem holds for exponent (n):
+[
+(a + b)^n = \sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k.
+]
+Now multiply both sides by ((a + b)):
+[
+(a + b)^{n+1} = (a + b)\sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k.
+]
+Distribute:
+[
+(a + b)^{n+1} = a\sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k + b\sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k.
+]
+Rewrite each sum:</p>
+<ul>
+<li>
+<p>The first sum (multiplying by (a)):
+  [
+  a\sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k = \sum_{k=0}^{n} \binom{n}{k}a^{(n+1)-k}b^k.
+  ]</p>
+</li>
+<li>
+<p>The second sum (multiplying by (b)):
+  [
+  b\sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k = \sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^{k+1}.
+  ]
+  If you shift the index in this sum by writing (j = k + 1), it becomes
+  [
+  \sum_{j=1}^{n+1} \binom{n}{j-1}a^{(n+1)-j}b^j.
+  ]</p>
+</li>
+</ul>
+<p>Now write both sums with the same exponent pattern (a^{(n+1)-k}b^k), and combine:</p>
+<ul>
+<li>From the first sum, the term with exponent pattern (a^{(n+1)-k}b^k) has coefficient (\binom{n}{k}).  </li>
+<li>From the second sum, the same pattern (for (1 \leq k \leq n)) has coefficient (\binom{n}{k-1}).  </li>
+</ul>
+<p>Therefore, for (1 \leq k \leq n), the combined coefficient of (a^{(n+1)-k}b^k) is
+[
+\binom{n}{k-1} + \binom{n}{k} = \binom{n+1}{k}
+]
+by Pascal’s identity.</p>
+<p>At the edges:</p>
+<ul>
+<li>For (k = 0), only the first sum contributes, giving coefficient (\binom{n}{0} = 1 = \binom{n+1}{0}).  </li>
+<li>For (k = n + 1), only the shifted second sum contributes, giving coefficient (\binom{n}{n} = 1 = \binom{n+1}{n+1}).</li>
+</ul>
+<p>Thus
+[
+(a + b)^{n+1} = \sum_{k=0}^{n+1} \binom{n+1}{k}a^{(n+1)-k}b^k,
+]
+which is the binomial theorem for exponent (n + 1), assuming it for (n).</p>
+<p>With the base case (n = 0) or (n = 1) checked directly, this argument gives an algebraic proof of the binomial theorem for all integers (n \geq 0).</p>
+<hr />
+<h2 id="4-proof-by-mathematical-induction">4. Proof by mathematical induction<a class="headerlink" href="#4-proof-by-mathematical-induction" title="Permanent link">&para;</a></h2>
+<p>Mathematical induction provides another, closely related symbolic proof.</p>
+<h3 id="41-base-case">4.1 Base case<a class="headerlink" href="#41-base-case" title="Permanent link">&para;</a></h3>
+<p>For (n = 0),
+[
+(a + b)^0 = 1.
+]
+On the right-hand side,
+[
+\sum_{k=0}^{0} \binom{0}{k}a^{0-k}b^k = \binom{0}{0}a^0b^0 = 1.
+]
+So the formula holds for (n = 0).</p>
+<h3 id="42-inductive-step">4.2 Inductive step<a class="headerlink" href="#42-inductive-step" title="Permanent link">&para;</a></h3>
+<p>Assume the theorem holds for some integer (n):
+[
+(a + b)^n = \sum_{k=0}^{n} \binom{n}{k}a^{n-k}b^k.
+]
+Multiply both sides by ((a + b)) and repeat the argument from Section 3.2, using the fact that exponents and binomial coefficients line up through Pascal’s identity. The same reasoning shows that the formula then holds for (n + 1).</p>
+<p>Therefore, by induction, the binomial theorem is true for all non-negative integers (n).</p>
+<p>Induction and the Pascal-identity method are really two ways of viewing the same structure: each new row of coefficients is built from the previous row, and the algebra respects that layering.</p>
+<hr />
+<h2 id="5-applications-special-values-and-binomial-sums">5. Applications: special values and binomial sums<a class="headerlink" href="#5-applications-special-values-and-binomial-sums" title="Permanent link">&para;</a></h2>
+<h3 id="51-evaluating-powers-quickly">5.1 Evaluating powers quickly<a class="headerlink" href="#51-evaluating-powers-quickly" title="Permanent link">&para;</a></h3>
+<p>Using the binomial theorem, powers like ((1.01)^{5}) or ((2x - 1)^{4}) can be expanded systematically. For example:
+[
+(2x - 1)^4 = \sum_{k=0}^{4} \binom{4}{k}(2x)^{4-k}(-1)^k.
+]
+Term by term:
+- (k = 0): (\binom{4}{0}(2x)^4 = 16x^4).<br />
+- (k = 1): (\binom{4}{1}(2x)^3(-1) = 4 \cdot 8x^3(-1) = -32x^3).<br />
+- (k = 2): (\binom{4}{2}(2x)^2(+1) = 6 \cdot 4x^2 = 24x^2).<br />
+- (k = 3): (\binom{4}{3}(2x)^1(-1) = 4 \cdot 2x(-1) = -8x).<br />
+- (k = 4): (\binom{4}{4}(2x)^0(+1) = 1).</p>
+<p>So
+[
+(2x - 1)^4 = 16x^4 - 32x^3 + 24x^2 - 8x + 1.
+]</p>
+<hr />
+<h3 id="52-sums-of-binomial-coefficients">5.2 Sums of binomial coefficients<a class="headerlink" href="#52-sums-of-binomial-coefficients" title="Permanent link">&para;</a></h3>
+<p>Setting (a = 1), (b = 1) in the binomial theorem gives
+[
+(1 + 1)^n = \sum_{k=0}^{n} \binom{n}{k}1^{n-k}1^k = \sum_{k=0}^{n} \binom{n}{k}.
+]
+Therefore,
+[
+\sum_{k=0}^{n} \binom{n}{k} = 2^n.
+]</p>
+<p>Similarly, setting (a = 1), (b = -1) gives
+[
+(1 - 1)^n = \sum_{k=0}^{n} \binom{n}{k}1^{n-k}(-1)^k = \sum_{k=0}^{n} (-1)^k\binom{n}{k}.
+]
+For (n \geq 1), the left-hand side is 0, so
+[
+\sum_{k=0}^{n} (-1)^k\binom{n}{k} = 0.
+]</p>
+<p>These two simple substitutions already produce important combinatorial identities.</p>
+<hr />
+<h3 id="53-weighted-binomial-sums">5.3 Weighted binomial sums<a class="headerlink" href="#53-weighted-binomial-sums" title="Permanent link">&para;</a></h3>
+<p>Sometimes the variable is placed inside the coefficient rather than beside it. For example, consider
+[
+(1 + x)^n = \sum_{k=0}^{n} \binom{n}{k}x^k.
+]
+Differentiate both sides with respect to (x) (this step is conceptually useful even if calculus is not your focus):
+[
+n(1 + x)^{n-1} = \sum_{k=1}^{n} k\binom{n}{k}x^{k-1}.
+]
+Setting (x = 1) gives
+[
+n2^{n-1} = \sum_{k=1}^{n} k\binom{n}{k}.
+]
+So
+[
+\sum_{k=0}^{n} k\binom{n}{k} = n2^{n-1},
+]
+since the (k = 0) term is zero. Even without full calculus, this identity can be accepted as a glimpse of how binomial expansions interact with rates of change.</p>
+<hr />
+<h2 id="6-worked-examples">6. Worked examples<a class="headerlink" href="#6-worked-examples" title="Permanent link">&para;</a></h2>
+<h3 id="example-1-proving-a-binomial-identity">Example 1: Proving a binomial identity<a class="headerlink" href="#example-1-proving-a-binomial-identity" title="Permanent link">&para;</a></h3>
+<p>Show that
+[
+\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n.
+]</p>
+<p>Using the binomial theorem with (a = 1), (b = 1):
+[
+(1 + 1)^n = \sum_{k=0}^{n} \binom{n}{k}1^{n-k}1^k = \sum_{k=0}^{n} \binom{n}{k}.
+]
+The left side is (2^n), so the sum of the binomial coefficients in row (n) of Pascal’s triangle equals (2^n).</p>
+<hr />
+<h3 id="example-2-coefficient-in-a-more-complex-binomial">Example 2: Coefficient in a more complex binomial<a class="headerlink" href="#example-2-coefficient-in-a-more-complex-binomial" title="Permanent link">&para;</a></h3>
+<p>Find the coefficient of (x^5) in ((2 + x)^8).</p>
+<p>Using
+[
+(2 + x)^8 = \sum_{k=0}^{8} \binom{8}{k}2^{8-k}x^k,
+]
+the term with (x^5) corresponds to (k = 5):
+[
+\binom{8}{5}2^{3}x^5.
+]
+Compute the number coefficient:
+[
+\binom{8}{5}2^{3} = \binom{8}{3}8 = 56 \cdot 8 = 448.
+]
+So the coefficient of (x^5) is 448.</p>
+<hr />
+<h2 id="7-exercises">7. Exercises<a class="headerlink" href="#7-exercises" title="Permanent link">&para;</a></h2>
+<p><strong>Mild</strong></p>
+<ol>
+<li>Use the binomial theorem to expand:  </li>
+<li>a) ((x - 1)^3),  </li>
+<li>
+<p>b) ((3 + x)^3).  </p>
+</li>
+<li>
+<p>In the expansion of ((a + b)^6), what is the coefficient of (a^4b^2)?</p>
+</li>
+</ol>
+<hr />
+<p><strong>Medium</strong></p>
+<ol>
+<li>
+<p>Prove, using the binomial theorem, that
+   [
+   \binom{n}{0} + \binom{n}{2} + \binom{n}{4} + \cdots = \binom{n}{1} + \binom{n}{3} + \binom{n}{5} + \cdots = 2^{n-1}
+   ]
+   for (n \geq 1), where the sums run over even and odd indices respectively.  </p>
+</li>
+<li>
+<p>Find the coefficient of (x^3) in ((1 + 2x)^7).  </p>
+</li>
+<li>
+<p>Use the binomial theorem to show that for any integer (n \geq 1),
+   [
+   (1 + x)^n - (1 - x)^n
+   ]
+   contains only odd powers of (x).</p>
+</li>
+</ol>
+<hr />
+<p><strong>Spicy</strong></p>
+<ol>
+<li>
+<p>Show that
+   [
+   \sum_{k=0}^{n} k\binom{n}{k} = n2^{n-1}.
+   ]
+   Hint: Start from ((1 + x)^n) and consider its derivative at (x = 1), or use a combinatorial interpretation (counting ways to choose a marked element).  </p>
+</li>
+<li>
+<p>Prove that
+   [
+   \sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}.
+   ]
+   Hint: Consider the coefficient of (x^n) in ((1 + x)^{2n}) and in ((1 + x)^n(1 + x)^n).</p>
+</li>
+</ol>
+<hr />
+<p><strong>Extra Hot</strong></p>
+<ol>
+<li>
+<p>For large (n), the middle binomial coefficient (\binom{2n}{n}) is very large. Using the binomial theorem and informal reasoning (no calculus required), explain why ((1 + 1)^{2n} = 4^n) is dominated by terms around (x^n) in the expansion of ((1 + x)^{2n}) at (x = 1).  </p>
+</li>
+<li>
+<p>Show that for integers (m, n \geq 0),
+   [
+   \binom{m + n}{r} = \sum_{k=0}^{r} \binom{m}{k}\binom{n}{r-k},
+   ]
+   interpreting both sides in terms of ways to choose (r) objects from a group of (m + n) objects split into two subgroups of sizes (m) and (n).</p>
+</li>
+</ol>
+<hr />
+<h2 id="8-answers-short-form">8. Answers (short form)<a class="headerlink" href="#8-answers-short-form" title="Permanent link">&para;</a></h2>
+<ol>
+<li></li>
+<li>a) ((x - 1)^3 = x^3 - 3x^2 + 3x - 1).  </li>
+<li>
+<p>b) ((3 + x)^3 = x^3 + 9x^2 + 27x + 27).</p>
+</li>
+<li>
+<p>Coefficient of (a^4b^2) in ((a + b)^6) is (\binom{6}{2} = 15) (choose the 2 positions for (b)).</p>
+</li>
+<li>
+<p>Using the binomial theorem:
+   [
+   (1 + x)^n = \sum_{k=0}^{n} \binom{n}{k}x^k,
+   ]
+   and
+   [
+   (1 - x)^n = \sum_{k=0}^{n} \binom{n}{k}(-x)^k.
+   ]
+   Adding gives
+   [
+   (1 + x)^n + (1 - x)^n = 2\sum_{\text{even }k} \binom{n}{k}x^k.
+   ]
+   Setting (x = 1) yields
+   [
+   2^n + 0 = 2\sum_{\text{even }k} \binom{n}{k},
+   ]
+   so the sum of even-index coefficients is (2^{n-1}). A similar argument with subtraction shows the same for odd indices.</p>
+</li>
+<li>
+<p>In ((1 + 2x)^7), the term in (x^3) corresponds to (k = 3):
+   [
+   \binom{7}{3}1^{4}(2x)^3 = 35 \cdot 8x^3 = 280x^3,
+   ]
+   so the coefficient is 280.</p>
+</li>
+<li>
+<p>Using the binomial theorem,
+   [
+   (1 + x)^n - (1 - x)^n = \sum_{k=0}^{n} \binom{n}{k}(x^k - (-x)^k).
+   ]
+   For even (k), (x^k - (-x)^k = 0); for odd (k), (x^k - (-x)^k = 2x^k). Thus only odd powers appear.</p>
+</li>
+<li>
+<p>As sketched in Section 5.3,
+   [
+   \sum_{k=0}^{n} k\binom{n}{k} = n2^{n-1}.
+   ]</p>
+</li>
+<li>
+<p>The coefficient of (x^n) in ((1 + x)^{2n}) is (\binom{2n}{n}). Writing
+   [
+   (1 + x)^{2n} = (1 + x)^n(1 + x)^n,
+   ]
+   and expanding both with binomial coefficients shows that this same coefficient equals
+   [
+   \sum_{k=0}^{n} \binom{n}{k}\binom{n}{n-k} = \sum_{k=0}^{n} \binom{n}{k}^2.
+   ]</p>
+</li>
+<li>
+<p>In ((1 + 1)^{2n}), the central terms (with (k) near (n)) have the largest binomial coefficients (\binom{2n}{k}). As (n) grows, these middle terms dominate the sum because their coefficients grow much faster than those near the ends ((k) near 0 or (2n)). This is a first glimpse of how binomial distributions concentrate around the centre.</p>
+</li>
+<li>
+<p>The right-hand side counts ways to choose (r) objects from two groups (sizes (m) and (n)) by splitting the choice into “choose (k) from the first group and (r - k) from the second”. Summing over all possible (k) gives the total number of ways to choose (r) from (m + n), which is (\binom{m + n}{r}).</p>
+</li>
+</ol>
+<hr />
+<h2 id="9-key-ideas-and-whats-next">9. Key ideas and what’s next<a class="headerlink" href="#9-key-ideas-and-whats-next" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The binomial theorem can be proved symbolically by building ((a + b)^{n+1}) from ((a + b)^n) and using Pascal’s identity, or by full mathematical induction. [file:1]</li>
+<li>Substituting special values into the binomial expansion yields powerful identities for sums of binomial coefficients, including even/odd splits and weighted sums.</li>
+<li>In the next chapter, you will broaden the focus from binomials to general <strong>polynomials and factorisation</strong>, using the binomial theorem as a key tool for understanding and manipulating higher-degree expressions.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.tracking", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,3009 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A visual, step-by-step algebra book for grades 6–12 – from basic identities to binomial, exponentials, and modelling.">
+      
+      
+      
+        <link rel="canonical" href="https://Mirjan-Ali-Sha.github.io/algebraic-formulas-book/part4_advanced-structures-and-functions/ch28_advanced-identities-and-inequalities/">
+      
+      
+        <link rel="prev" href="../ch27_transformations-and-compositions/">
+      
+      
+        <link rel="next" href="../ch29_functional-equations-intro/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 28: Advanced Identities and Inequalities - Unified Algebraic Formulas and Proofs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-28-advanced-identities-and-inequalities" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-header__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unified Algebraic Formulas and Proofs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 28: Advanced Identities and Inequalities
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Unified Algebraic Formulas and Proofs" class="md-nav__button md-logo" aria-label="Unified Algebraic Formulas and Proofs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Unified Algebraic Formulas and Proofs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mirjan-Ali-Sha/algebraic-formulas-book" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mirjan-Ali-Sha/algebraic-formulas-book
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_preface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_about-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_how-to-use-this-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_introduction-for-students/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Students
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_introduction-for-teachers-and-parents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction for Teachers and Parents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 – Core Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 – Core Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/part1_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch01_what-is-algebra-why-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1: What is Algebra? Why Formulas?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch02_variables-patterns-and-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2: Variables, Patterns, and Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch03_visualizing-equations-and-basic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Visualizing Equations and Basic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1_core-foundations/ch05_square-of-a-difference-and-difference-of-squares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: The Square of a Difference, Difference of Squares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 – Expanding Algebraic Thinking
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/part2_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch06_product-and-factorization-formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6: Product and Factorization Formulas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch07_three-variable-and-cubic-identities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7: Three-Variable and Cubic Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch08_patterns-in-expansion-pascal-and-binomial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8: Patterns in Expansion – Pascal and Binomial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch09_higher-power-expressions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9: Higher-Power Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch10_factoring-special-expansions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10: Factoring Special Expansions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part2_expanding-algebraic-thinking/ch11_mixed-practice-and-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 11: Mixed Practice and Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 – Equations and Progressions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 – Equations and Progressions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/part3_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch12_quadratic-equations-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 12: Quadratic Equations – Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch13_roots-and-factorization-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 13: Roots and Factorization Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch14_quadratic-formula-and-derivation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 14: Quadratic Formula and Derivation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch15_more-quadratic-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 15: More Quadratic Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch16_sequences-arithmetic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 16: Sequences – Arithmetic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch17_sequences-geometric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 17: Sequences – Geometric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch18_sequences-harmonic-and-other/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 18: Sequences – Harmonic and Other
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch19_finite-and-infinite-series/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 19: Finite and Infinite Series
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part3_equations-and-progressions/ch20_exponents-and-surds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 20: Exponents and Surds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 – Advanced Structures and Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part4_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch21_binomial-theorem-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 21: Binomial Theorem – Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch22_binomial-theorem-visual-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 22: Binomial Theorem – Visual and Combinatorial Proofs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch23_binomial-theorem-symbolic-proofs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 23: Binomial Theorem – Symbolic Proofs and Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch24_polynomials-and-factorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 24: Polynomials and Factorization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch25_exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 25: Exponential Functions – Growth Patterns and Graphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch26_logarithmic-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 26: Logarithmic Functions – Inverse, Laws, Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch27_transformations-and-compositions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27: Transformations and Compositions of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Advanced Identities and Inequalities
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 28: Advanced Identities and Inequalities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-key-advanced-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Key advanced identities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Key advanced identities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-sum-of-squared-differences-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Sum of squared differences identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-symmetric-sum-of-cubes-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Symmetric sum of cubes identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-squares-and-non-negativity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Squares and non-negativity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-using-identities-to-prove-inequalities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Using identities to prove inequalities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Using identities to prove inequalities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-a-three-variable-inequality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: A three-variable inequality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-a-symmetric-inequality-with-cubes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: A symmetric inequality with cubes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-a-quartic-inequality-via-squares" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: A quartic inequality via squares
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-4-a-symmetric-square-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 4: A symmetric square identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-5-a-simple-application-of-amgm-style-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5: A simple application of AM–GM style reasoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch29_functional-equations-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 29: Functional Equations – An Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch30_mixed-advanced-practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 30: Mixed Advanced Practice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 – Applications, Modelling, and Integration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/part5_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch31_linear-and-quadratic-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 31: Linear and Quadratic Modelling – From Story to Formula
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch32_exponential-and-log-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 32: Exponential and Logarithmic Modelling – Growth, Decay, and Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch33_historical-and-artistic-perspectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 33: Historical and Artistic Perspectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch34_cross-discipline-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 34: Cross-Discipline Applications – Algebra in Science, Art, and Life
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part5_applications-modelling-integration/ch35_capstone-projects-and-formula-toolbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 35: Capstone Projects and Unified Formula Toolbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Answers & Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Answers & Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/solutions_part5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../answers-and-reference/formula-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formula Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-and-motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introduction and motivation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-visual-idea-described-in-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Visual idea described in words
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-key-advanced-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Key advanced identities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Key advanced identities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-sum-of-squared-differences-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Sum of squared differences identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-symmetric-sum-of-cubes-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Symmetric sum of cubes identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-squares-and-non-negativity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Squares and non-negativity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-using-identities-to-prove-inequalities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Using identities to prove inequalities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Using identities to prove inequalities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-a-three-variable-inequality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: A three-variable inequality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-a-symmetric-inequality-with-cubes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: A symmetric inequality with cubes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-a-quartic-inequality-via-squares" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: A quartic inequality via squares
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-4-a-symmetric-square-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 4: A symmetric square identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-5-a-simple-application-of-amgm-style-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5: A simple application of AM–GM style reasoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-answers-short-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Answers (short form)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-28-advanced-identities-and-inequalities">Chapter 28: Advanced Identities and Inequalities<a class="headerlink" href="#chapter-28-advanced-identities-and-inequalities" title="Permanent link">&para;</a></h1>
+<h2 id="1-introduction-and-motivation">1. Introduction and motivation<a class="headerlink" href="#1-introduction-and-motivation" title="Permanent link">&para;</a></h2>
+<p>Algebraic identities and inequalities are powerful shortcuts. They condense long expansions into compact patterns and let you compare expressions without plugging in numbers. In earlier chapters you met core identities (squares, cubes, binomials) and simple inequalities (such as (a^2 \geq 0)). This chapter extends those ideas to more <strong>symmetric multi-variable identities</strong> and shows how they can prove inequalities elegantly. [file:1]</p>
+<p>The focus is on expressions involving three variables, sums of squares, and symmetric patterns like (a^3 + b^3 + c^3 - 3abc). Many of these identities have geometric or combinatorial interpretations, but here the emphasis is on clean algebraic proofs and their use in showing that certain expressions are always non-negative.</p>
+<hr />
+<h2 id="2-visual-idea-described-in-words">2. Visual idea described in words<a class="headerlink" href="#2-visual-idea-described-in-words" title="Permanent link">&para;</a></h2>
+<p>Think of three numbers (a), (b), and (c) as points on a line. The squared differences ((a - b)^2), ((b - c)^2), and ((c - a)^2) measure how far apart these points are, regardless of sign. Adding them gives a kind of “total spread” among the three numbers. A symmetric identity relates this spread to a more compact combination
+[
+a^2 + b^2 + c^2 - ab - bc - ca,
+]
+which appears in many problems. [file:1]</p>
+<p>Likewise, the identity
+[
+a^3 + b^3 + c^3 - 3abc
+]
+can be seen as measuring how much the cubes of the numbers differ from a perfectly balanced product (abc). When (a + b + c = 0), the expression collapses to zero, revealing a hidden symmetry. Recognising such structures turns complicated expressions into structured, predictable ones.</p>
+<hr />
+<h2 id="3-key-advanced-identities">3. Key advanced identities<a class="headerlink" href="#3-key-advanced-identities" title="Permanent link">&para;</a></h2>
+<h3 id="31-sum-of-squared-differences-identity">3.1 Sum of squared differences identity<a class="headerlink" href="#31-sum-of-squared-differences-identity" title="Permanent link">&para;</a></h3>
+<p>A central identity in three variables is
+[
+(a - b)^2 + (b - c)^2 + (c - a)^2 = 2(a^2 + b^2 + c^2 - ab - bc - ca).
+]</p>
+<p><strong>Proof (algebraic expansion)</strong>:</p>
+<p>Expand each square:
+[
+(a - b)^2 = a^2 - 2ab + b^2,
+]
+[
+(b - c)^2 = b^2 - 2bc + c^2,
+]
+[
+(c - a)^2 = c^2 - 2ca + a^2.
+]
+Add them:
+[
+(a - b)^2 + (b - c)^2 + (c - a)^2
+= (a^2 + a^2) + (b^2 + b^2) + (c^2 + c^2) - 2(ab + bc + ca)
+= 2(a^2 + b^2 + c^2 - ab - bc - ca).
+]</p>
+<p>Because each squared difference is non-negative, this identity immediately yields inequalities, such as (a^2 + b^2 + c^2 \geq ab + bc + ca).</p>
+<hr />
+<h3 id="32-symmetric-sum-of-cubes-identity">3.2 Symmetric sum of cubes identity<a class="headerlink" href="#32-symmetric-sum-of-cubes-identity" title="Permanent link">&para;</a></h3>
+<p>Another important identity is
+[
+a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca).
+]</p>
+<p><strong>Proof (outline)</strong>:</p>
+<p>Start with the right-hand side:
+[
+(a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca).
+]
+Multiply out term by term:</p>
+<ol>
+<li>(a(a^2 + b^2 + c^2 - ab - bc - ca) = a^3 + ab^2 + ac^2 - a^2b - abc - a^2c.)  </li>
+<li>(b(a^2 + b^2 + c^2 - ab - bc - ca) = a^2b + b^3 + bc^2 - ab^2 - b^2c - abc.)  </li>
+<li>(c(a^2 + b^2 + c^2 - ab - bc - ca) = a^2c + b^2c + c^3 - abc - bc^2 - ac^2.)</li>
+</ol>
+<p>Add all three expressions and cancel terms carefully. All mixed-square terms (like (ab^2), (a^2b), etc.) cancel in pairs, leaving
+[
+a^3 + b^3 + c^3 - 3abc.
+]</p>
+<p>A special and often-used case: if (a + b + c = 0), then the right-hand side is zero, so
+[
+a^3 + b^3 + c^3 = 3abc.
+]</p>
+<hr />
+<h3 id="33-squares-and-non-negativity">3.3 Squares and non-negativity<a class="headerlink" href="#33-squares-and-non-negativity" title="Permanent link">&para;</a></h3>
+<p>Many inequalities come from rewriting an expression as a sum of squares. Examples:</p>
+<ul>
+<li>((a - b)^2 \geq 0 \Rightarrow a^2 + b^2 \geq 2ab.)  </li>
+<li>((x^2 - 1)^2 \geq 0 \Rightarrow x^4 + 1 \geq 2x^2.)  </li>
+</ul>
+<p>The trick is to <strong>recognise or construct</strong> a square whose expansion matches the expression in question.</p>
+<hr />
+<h2 id="4-using-identities-to-prove-inequalities">4. Using identities to prove inequalities<a class="headerlink" href="#4-using-identities-to-prove-inequalities" title="Permanent link">&para;</a></h2>
+<h3 id="example-1-a-three-variable-inequality">Example 1: A three-variable inequality<a class="headerlink" href="#example-1-a-three-variable-inequality" title="Permanent link">&para;</a></h3>
+<p>Prove that for all real (a, b, c),
+[
+a^2 + b^2 + c^2 \geq ab + bc + ca.
+]</p>
+<p>Using the sum-of-squared-differences identity:
+[
+(a - b)^2 + (b - c)^2 + (c - a)^2 = 2(a^2 + b^2 + c^2 - ab - bc - ca).
+]
+The left side is a sum of squares, so it is (\geq 0). Therefore
+[
+2(a^2 + b^2 + c^2 - ab - bc - ca) \geq 0,
+]
+and thus
+[
+a^2 + b^2 + c^2 \geq ab + bc + ca.
+]
+Equality holds when all three squared differences are zero, i.e. when (a = b = c).</p>
+<hr />
+<h3 id="example-2-a-symmetric-inequality-with-cubes">Example 2: A symmetric inequality with cubes<a class="headerlink" href="#example-2-a-symmetric-inequality-with-cubes" title="Permanent link">&para;</a></h3>
+<p>Prove that if (a + b + c = 0), then
+[
+a^3 + b^3 + c^3 \geq 3abc,
+]
+and determine when equality holds.</p>
+<p>From the sum-of-cubes identity:
+[
+a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca).
+]
+If (a + b + c = 0), this simplifies to
+[
+a^3 + b^3 + c^3 - 3abc = 0 \Rightarrow a^3 + b^3 + c^3 = 3abc.
+]
+So the inequality holds with equality always, under the condition (a + b + c = 0). This example shows that sometimes an “inequality” is actually a precise equality once the structure is recognised.</p>
+<hr />
+<h3 id="example-3-a-quartic-inequality-via-squares">Example 3: A quartic inequality via squares<a class="headerlink" href="#example-3-a-quartic-inequality-via-squares" title="Permanent link">&para;</a></h3>
+<p>Show that for all real (x),
+[
+x^4 + 4 \geq 4x^2.
+]</p>
+<p>Rewrite by bringing all terms to one side:
+[
+x^4 - 4x^2 + 4 \geq 0.
+]
+Recognise a perfect square:
+[
+x^4 - 4x^2 + 4 = (x^2 - 2)^2.
+]
+Since any square is (\geq 0),
+[
+(x^2 - 2)^2 \geq 0 \Rightarrow x^4 + 4 \geq 4x^2.
+]
+Equality occurs when (x^2 - 2 = 0), i.e. (x = \pm\sqrt{2}).</p>
+<hr />
+<h2 id="5-worked-examples">5. Worked examples<a class="headerlink" href="#5-worked-examples" title="Permanent link">&para;</a></h2>
+<h3 id="example-4-a-symmetric-square-identity">Example 4: A symmetric square identity<a class="headerlink" href="#example-4-a-symmetric-square-identity" title="Permanent link">&para;</a></h3>
+<p>Show that
+[
+(a + b)^2 + (b + c)^2 + (c + a)^2 = 2(a^2 + b^2 + c^2 + ab + bc + ca).
+]</p>
+<p>Expand each square:
+[
+(a + b)^2 = a^2 + 2ab + b^2,
+]
+[
+(b + c)^2 = b^2 + 2bc + c^2,
+]
+[
+(c + a)^2 = c^2 + 2ca + a^2.
+]
+Add:
+[
+(a + b)^2 + (b + c)^2 + (c + a)^2
+= (a^2 + a^2) + (b^2 + b^2) + (c^2 + c^2) + 2(ab + bc + ca)
+= 2(a^2 + b^2 + c^2 + ab + bc + ca).
+]</p>
+<p>Such identities appear frequently in inequality proofs and symmetry arguments.</p>
+<hr />
+<h3 id="example-5-a-simple-application-of-amgm-style-reasoning">Example 5: A simple application of AM–GM style reasoning<a class="headerlink" href="#example-5-a-simple-application-of-amgm-style-reasoning" title="Permanent link">&para;</a></h3>
+<p>Although the formal Arithmetic Mean–Geometric Mean inequality is usually introduced later, a basic version can be seen through squares. For non-negative real (x) and (y),
+[
+(x - y)^2 \geq 0 \Rightarrow x^2 + y^2 \geq 2xy.
+]
+Rewriting yields
+[
+\frac{x^2 + y^2}{2} \geq xy,
+]
+which says the average of the squares is at least the product—a hint toward more advanced inequalities.</p>
+<hr />
+<h2 id="6-exercises">6. Exercises<a class="headerlink" href="#6-exercises" title="Permanent link">&para;</a></h2>
+<p><strong>Mild</strong></p>
+<ol>
+<li>Expand and simplify:</li>
+<li>a) ((a - b)^2 + (b - c)^2 + (c - a)^2),  </li>
+<li>
+<p>b) ((a + b)^2 + (b + c)^2 + (c + a)^2).  </p>
+</li>
+<li>
+<p>Show that for all real (a, b),
+   [
+   a^2 + b^2 \geq 2ab.
+   ]
+   Hint: Start from ((a - b)^2 \geq 0).</p>
+</li>
+</ol>
+<hr />
+<p><strong>Medium</strong></p>
+<ol>
+<li>
+<p>Using the identity from this chapter, prove that
+   [
+   a^2 + b^2 + c^2 \geq ab + bc + ca
+   ]
+   for all real (a, b, c). When does equality occur?  </p>
+</li>
+<li>
+<p>Show that
+   [
+   a^4 + b^4 + 2a^2b^2 = (a^2 + b^2)^2,
+   ]
+   and use this to prove that
+   [
+   a^4 + b^4 + 2a^2b^2 \geq 4a^2b^2.
+   ]</p>
+</li>
+</ol>
+<hr />
+<p><strong>Spicy</strong></p>
+<ol>
+<li>
+<p>Prove that for all real (a, b, c),
+   [
+   a^2 + b^2 + c^2 \geq \frac{(a + b + c)^2}{3}.
+   ]
+   Hint: Relate both sides to sums of squared differences or expand and simplify.  </p>
+</li>
+<li>
+<p>Suppose (a + b + c = 0). Show that
+   [
+   a^2 + b^2 + c^2 = -2(ab + bc + ca).
+   ]
+   Then deduce the sign of (ab + bc + ca) when (a, b, c) are not all zero.</p>
+</li>
+</ol>
+<hr />
+<p><strong>Extra Hot</strong></p>
+<ol>
+<li>
+<p>Prove that for any real numbers (x) and (y),
+   [
+   x^4 + y^4 + 2x^2y^2 \geq 4x^2y^2.
+   ]
+   Then explain how this inequality is related to ((x^2 - y^2)^2 \geq 0).  </p>
+</li>
+<li>
+<p>Show that
+   [
+   a^3 + b^3 + c^3 - 3abc = \frac{1}{2}(a + b + c)\left[(a - b)^2 + (b - c)^2 + (c - a)^2\right].
+   ]
+   Hint: Combine the sum-of-cubes identity with the squared-differences identity.  </p>
+</li>
+</ol>
+<hr />
+<h2 id="7-answers-short-form">7. Answers (short form)<a class="headerlink" href="#7-answers-short-form" title="Permanent link">&para;</a></h2>
+<ol>
+<li></li>
+<li>a) As shown in Section 3.1:
+     [
+     (a - b)^2 + (b - c)^2 + (c - a)^2 = 2(a^2 + b^2 + c^2 - ab - bc - ca).
+     ]</li>
+<li>
+<p>b) As shown in Example 4:
+     [
+     (a + b)^2 + (b + c)^2 + (c + a)^2 = 2(a^2 + b^2 + c^2 + ab + bc + ca).
+     ]</p>
+</li>
+<li>
+<p>From ((a - b)^2 \geq 0),
+   [
+   a^2 - 2ab + b^2 \geq 0 \Rightarrow a^2 + b^2 \geq 2ab.
+   ]</p>
+</li>
+<li>
+<p>Using the squared-differences identity:
+   [
+   (a - b)^2 + (b - c)^2 + (c - a)^2 = 2(a^2 + b^2 + c^2 - ab - bc - ca) \geq 0.
+   ]
+   Divide by 2 to get the result. Equality holds if and only if (a = b = c).</p>
+</li>
+<li></li>
+<li>Identity:
+     [
+     (a^2 + b^2)^2 = a^4 + 2a^2b^2 + b^4.
+     ]</li>
+<li>
+<p>Since ((a^2 - b^2)^2 \geq 0), we have
+     [
+     a^4 + b^4 \geq 2a^2b^2.
+     ]
+     Adding another (2a^2b^2) to both sides yields
+     [
+     a^4 + b^4 + 2a^2b^2 \geq 4a^2b^2.
+     ]</p>
+</li>
+<li>
+<p>Expanding the right-hand side:
+   [
+   \frac{(a + b + c)^2}{3} = \frac{a^2 + b^2 + c^2 + 2(ab + bc + ca</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.tracking", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
